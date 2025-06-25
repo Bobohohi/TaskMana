@@ -1,0 +1,15 @@
+﻿@model List<LuanVanTotNghiep.Models.TaskDetailItem>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var member in Model)
+        {
+            <li>👤 @member.Email</li>
+        }
+    </ul>
+}
+else
+{
+    <p>Không có thành viên.</p>
+}

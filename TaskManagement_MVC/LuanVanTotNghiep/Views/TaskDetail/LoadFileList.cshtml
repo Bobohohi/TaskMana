@@ -1,0 +1,20 @@
+﻿@model IEnumerable<LuanVanTotNghiep.Models.TaskFileItem>
+
+@if (Model != null && Model.Any())
+{
+    <div class="file-list">
+        @foreach (var file in Model)
+        {
+            <div class="file-item">
+                <div class="file-name">@file.FileName</div>
+                <div class="file-actions">
+                    <a href="@file.FilePath" download>Tải</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Không có file đính kèm.</p>
+}

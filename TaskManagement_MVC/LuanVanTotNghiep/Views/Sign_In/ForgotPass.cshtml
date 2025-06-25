@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Quên Mật Khẩu";
+    Layout = null;
+}
+<head>
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        /* Thêm background toàn trang */
+        body {
+            background: rgb(255,71,87);
+            background: linear-gradient(90deg, rgba(255,71,87,1) 23%, rgba(226,231,232,0) 50%, rgba(43,148,233,1) 100%);
+            background-size: cover; /* Ảnh phủ kín màn hình */
+            background-position: center; /* Căn giữa ảnh */
+            background-repeat: no-repeat; /* Không lặp lại ảnh */
+            height: 100vh; /* Chiều cao toàn màn hình */
+        }
+
+        /* Hiệu ứng mờ cho form đăng nhập */
+        .login-card {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Căn giữa và bỏ gạch chân cho liên kết */
+        .forgot-password {
+            display: block;
+            text-align: right;
+            margin: 10px 0;
+            text-decoration: none; /* Bỏ gạch chân */
+            color: #333; /* Màu xanh Bootstrap */
+            font-weight: 300;
+            transition: color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff4757;
+            box-shadow: 0 4px 10px rgba(255, 71, 87, 0.5);
+        }
+
+        .form-control, .btn {
+            border-radius: 10px;
+            padding: 10px 15px;
+        }
+
+        /* Nút nổi bật với màu đỏ cam */
+        .btn-primary {
+            background-color: #ff6b6b; /* Màu đỏ cam */
+            border: none;
+            transition: all 0.3s;
+        }
+
+        .forgot-password:hover {
+            color: #ff4757; /* Màu đỏ cam đậm hơn */
+        }
+        /* Tùy chỉnh nút quay về đăng nhập */
+        .btn-secondary {
+            background-color: #6c757d; /* Màu xám nhạt */
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            transition: all 0.3s;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268; /* Màu xám đậm hơn khi hover */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+ 
+    </style>
+</head>
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card p-4 login-card" style="width: 400px;">
+        @* <div >
+            <a href="@Url.Action("Index", "Sign_In")" style="align-content:flex-start">
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/back.png" alt="back" />
+            </a>
+        </div> *@
+        <h2 class="text-center mb-4">Forgot Password</h2>
+
+        <form method="post" action="/Sign_in/ForgotPass">
+            <div class="mb-3">
+                <input class="form-control" type="email" name="email" placeholder="Nhập email của bạn" required />
+            </div>
+            <div class="mb-3">
+                <div class="g-recaptcha" data-sitekey="sitekey"></div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary w-100" type="submit">Send</button>
+            </div>
+            @if (ViewBag.Error != null)
+            {
+                <p class="text-danger text-center mt-3">@ViewBag.Error</p>
+            }
+        </form>
+    </div>
+</div>
+

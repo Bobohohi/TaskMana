@@ -1,0 +1,213 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LuanVanTotNghiep
+build_property.RootNamespace = LuanVanTotNghiep
+build_property.ProjectDir = D:\ACTIVE_OFFICE\VS_STUDIO\ki2nam4\TaskManagement_MVC\LuanVanTotNghiep\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ACTIVE_OFFICE\VS_STUDIO\ki2nam4\TaskManagement_MVC\LuanVanTotNghiep
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/File/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/GroupManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3JvdXBNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Membership/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWVtYmVyc2hpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Project/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvamVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/TaskManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza01hbmFnZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Archive/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Dashboard_Task/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkX1Rhc2tcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Dashboard_Task/DueDateInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkX1Rhc2tcRHVlRGF0ZUlucHV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Dashboard_Task/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkX1Rhc2tcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/AddFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XEFkZEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/AddMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XEFkZE1lbWJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/AddReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XEFkZFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/CreateBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XENyZWF0ZUJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/CreateProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XENyZWF0ZVByb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/CreateTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XENyZWF0ZVRhc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/ListBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XExpc3RCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/ListProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XExpc3RQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/LoadMemberList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XExvYWRNZW1iZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/LoadReportList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XExvYWRSZXBvcnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/GroupAndProject/TaskDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvdXBBbmRQcm9qZWN0XFRhc2tEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Membership/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Notification/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Sign_In/ForgotPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbl9JblxGb3Jnb3RQYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Sign_In/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbl9JblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Sign_In/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbl9JblxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/StaticReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/TaskDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0RldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/TaskDetail/LoadFileList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0RldGFpbFxMb2FkRmlsZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/TaskDetail/LoadTaskMemberList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza0RldGFpbFxMb2FkVGFza01lbWJlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cxuxm8g3hw
+
+[D:/ACTIVE_OFFICE/VS_STUDIO/ki2nam4/TaskManagement_MVC/LuanVanTotNghiep/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qe06sujqck

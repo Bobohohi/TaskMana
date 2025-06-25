@@ -1,0 +1,64 @@
+﻿@model List<LuanVanTotNghiep.Models.ReportItem>
+
+<style>
+    .report-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 10px;
+    }
+
+    .report-card {
+        background-color: #f8f9fa;
+        border-radius: 12px;
+        padding: 16px 20px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+        .report-card:hover {
+            background-color: #eef1f4;
+            transform: translateY(-2px);
+        }
+
+    .report-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 4px;
+    }
+
+    .report-meta {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 8px;
+    }
+
+    .report-desc {
+        font-size: 14px;
+        color: #444;
+        margin: 0;
+    }
+</style>
+
+
+
+@if (Model != null && Model.Any())
+{
+    <div class="report-list">
+        @foreach (var report in Model)
+        {
+            <div class="report-card">
+                <div class="report-title">@report.ReportName</div>
+                <div class="report-meta">
+                    Loại: <strong>@report.ReportType</strong> | Tạo lúc: @report.CreatedAt?.ToString("dd/MM/yyyy HH:mm")
+                </div>
+                <p class="report-desc">@report.Description</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Không có báo cáo nào cho dự án này.</p>
+}

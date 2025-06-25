@@ -1,0 +1,112 @@
+﻿@{
+    ViewData["Title"] = "Đăng Nhập";
+    Layout = null;
+}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            background: linear-gradient(90deg, rgba(255,71,87,1) 23%, rgba(139, 4, 201, 1) 50%, rgba(43,148,233,1) 100%);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .login-card {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .forgot-password, .signup-link {
+            display: block;
+            text-align: right;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+            font-weight: 300;
+            transition: color 0.3s;
+        }
+
+            .forgot-password:hover, .signup-link:hover {
+                color: #ff4757;
+            }
+
+        .btn-primary {
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 15px;
+            transition: all 0.3s;
+        }
+
+            .btn-primary:hover {
+                background-color: #ff4757;
+                box-shadow: 0 4px 10px rgba(255, 71, 87, 0.5);
+            }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 10px 15px;
+        }
+
+        .social-login {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-btn {
+            font-size: 1.5rem;
+            color: #555;
+            transition: 0.3s;
+        }
+
+            .social-btn:hover {
+                color: #ff4757;
+            }
+
+    </style>
+</head>
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card p-4 login-card" style="width: 400px;">
+        <h2 class="text-center mb-4">Login</h2>
+
+        <form method="post" action="/Sign_in/Login">
+            <div class="mb-3">
+                <label>Email:</label>
+                <input class="form-control" type="text" name="Email" required />
+            </div>
+
+            <div class="mb-3">
+                <label>Password:</label>
+                <input class="form-control" type="password" name="Password" required />
+            </div>
+
+            <a class="forgot-password" asp-area="" asp-controller="Sign_in" asp-action="ForgotPass">Forgot Password?</a>
+
+            <div class="text-center">
+                <button class="btn btn-primary w-100" type="submit">Submit</button>
+            </div>
+
+            @if (ViewBag.Error != null)
+            {
+                <p class="text-danger text-center mt-3">@ViewBag.Error</p>
+            }
+
+            <div class="d-flex justify-content-center align-items-center mt-3 gap-2">
+                <span class="mb-0">Don't have an account?</span>
+                <a asp-area="" asp-controller="Sign_in" asp-action="SignUp">Sign up</a>
+            </div>
+            <div class="social-login">
+                <a href="/Sign_in/ExternalLogin?provider=Google" class="social-btn" title="Login with Google"><i class="fab fa-google"></i></a>
+                <a href="/Sign_in/ExternalLogin?provider=Facebook" class="social-btn" title="Login with Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<LuanVanTotNghiep.Models.NotificationItem>
+
+@{
+    ViewData["Title"] = "Thông báo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .project-link {
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.2s ease;
+    }
+
+        .project-link:hover {
+            color: #0d6efd;
+        }
+</style>
+
+<h2 class="mb-4">📢 Thông báo của bạn</h2>
+
+@if (Model != null && Model.Any())
+{
+    <ul class="list-group">
+        @foreach (var item in Model.OrderByDescending(x => x.SentDate))
+        {
+            <li class="list-group-item @(item.IsRead == true ? "" : "list-group-item-warning") d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <a asp-action="UpdateIsReadNotice"
+                       asp-route-id="@item.NotificationId"
+                       class="project-link d-flex align-items-center gap-2">
+                        <i class="bi bi-bell-fill text-warning"></i>
+                        <span class="fw-bold">@item.Message</span>
+                    </a>
+                    <small class="text-muted">@item.SentDate?.ToString("dd/MM/yyyy HH:mm")</small>
+                </div>
+                @if (item.IsRead != true)
+                {
+                    <span class="badge bg-primary rounded-pill">Mới</span>
+                }
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <div class="alert alert-info">
+        Hiện tại bạn chưa có thông báo nào.
+    </div>
+}

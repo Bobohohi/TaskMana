@@ -1,0 +1,147 @@
+﻿@model IEnumerable<LuanVanTotNghiep.Models.GroupItem>
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="margin-left: 30px; color: #333;">Group And Project</h1>
+
+<p style="margin-left: 30px;">
+    <a asp-action="Create" class="btn btn-primary">+ Create Group</a>
+</p>
+
+<div class="group-container">
+    @foreach (var group in Model)
+    {
+        
+        <div class="group-card">
+            <div class="group-header">
+                <a asp-action="ListProject" asp-route-id="@group.GroupId" class="group-link"><span class="group-name"><strong>@group.GroupName</strong></span></a>
+                <div class="dropdown">
+                    <button class="menu-btn">⋯</button>
+                    <div class="dropdown-content">
+                        <a asp-action="Edit" asp-route-id="@group.GroupId">Rename</a>
+                        <a asp-action="Delete" asp-route-id="@group.GroupId">Delete</a>
+                        <a asp-action="AddMember" asp-route-id="@group.GroupId" >Add Member</a>
+                    </div>
+                </div>
+            </div>
+            <div class="group-subtitle">Members: @group.GroupSize</div>
+            <div class="group-body">
+                <a asp-action="ListProject" asp-route-id="@group.GroupId">
+                    <img src="/img/GroupImage.jpg" alt="Logo" class="group-img" />
+                </a>
+            </div>
+        </div>
+        
+    }
+</div>
+
+<style>
+    .group-link {
+        text-decoration: none;
+        color: inherit;
+    }
+    .group-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 30px;
+    }
+
+    .group-card {
+        margin:10px;
+        background: linear-gradient(to bottom right, #e0eafc, #cfdef3);
+        padding: 20px;
+        border-radius: 20px;
+        width: 340px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+    }
+
+        .group-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .group-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .group-name {
+        font-size: 20px;
+        color: #333;
+    }
+
+    .group-subtitle {
+        margin-top: 5px;
+        font-weight: 600;
+        color: #555;
+        font-size: 15px;
+    }
+
+    .group-body {
+        margin-top: 15px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .group-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .menu-btn {
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: #444;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        right: 0;
+        top: 30px;
+        border-radius: 8px;
+        z-index: 1;
+        min-width: 120px;
+    }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            border-bottom: 1px solid #eee;
+        }
+
+            .dropdown-content a:last-child {
+                border-bottom: none;
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f9f9f9;
+    }
+</style>

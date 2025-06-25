@@ -1,0 +1,182 @@
+/* _content/LuanVanTotNghiep/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Thu nhỏ sidebar và ẩn chữ */
+#sidebar.collapsed a.nav-link[b-cxuxm8g3hw],
+#sidebar.collapsed .navbar-brand[b-cxuxm8g3hw],
+#sidebar.collapsed .nav-item .ms-2[b-cxuxm8g3hw] {
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: opacity 0.3s, width 0.3s;
+}
+
+/* Hiển thị logo bình thường */
+#sidebar img.img-fluid[b-cxuxm8g3hw] {
+    max-width: 70px;
+    transition: max-width 0.3s;
+}
+
+/* Khi sidebar thu nhỏ, logo cũng thu nhỏ */
+#sidebar.collapsed img.img-fluid[b-cxuxm8g3hw] {
+    max-width: 50px;
+}
+
+/* Tạo khoảng cách và căn chỉnh logo */
+#sidebar .nav-item img[b-cxuxm8g3hw] {
+    margin-right: 10px;
+}
+
+/* Hiệu ứng thu gọn sidebar */
+#sidebar[b-cxuxm8g3hw] {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.3s;
+    
+}
+
+input[type=checkbox][b-cxuxm8g3hw] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label[b-cxuxm8g3hw] {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+    label[b-cxuxm8g3hw]:after {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border-radius: 90px;
+        transition: 0.3s;
+    }
+
+input:checked + label[b-cxuxm8g3hw] {
+    background: #bada55;
+}
+
+    input:checked + label[b-cxuxm8g3hw]:after {
+        left: calc(100% - 1px);
+        transform: translateX(-100%);
+    }
+
+label:active[b-cxuxm8g3hw]:after {
+    width: 30px;
+}
+.container[b-cxuxm8g3hw] {
+    max-width: calc(100% - 250px);
+    margin-left: 250px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body[b-cxuxm8g3hw] {
+    transition: background-color 0.3s, color 0.3s;
+}
+/* _content/LuanVanTotNghiep/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Thu nhỏ sidebar và ẩn chữ */
+#sidebar.collapsed a.nav-link[b-qe06sujqck],
+#sidebar.collapsed .navbar-brand[b-qe06sujqck],
+#sidebar.collapsed .nav-item .ms-2[b-qe06sujqck] {
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: opacity 0.3s, width 0.3s;
+}
+
+/* Hiển thị logo bình thường */
+#sidebar img.img-fluid[b-qe06sujqck] {
+    max-width: 70px;
+    transition: max-width 0.3s;
+}
+
+/* Khi sidebar thu nhỏ, logo cũng thu nhỏ */
+#sidebar.collapsed img.img-fluid[b-qe06sujqck] {
+    max-width: 50px;
+}
+
+/* Tạo khoảng cách và căn chỉnh logo */
+#sidebar .nav-item img[b-qe06sujqck] {
+    margin-right: 10px;
+}
+
+/* Hiệu ứng thu gọn sidebar */
+#sidebar[b-qe06sujqck] {
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.3s;
+    
+}
+
+input[type=checkbox][b-qe06sujqck] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label[b-qe06sujqck] {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 40px;
+    height: 20px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+    label[b-qe06sujqck]:after {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 18px;
+        height: 18px;
+        background: #fff;
+        border-radius: 90px;
+        transition: 0.3s;
+    }
+
+input:checked + label[b-qe06sujqck] {
+    background: #bada55;
+}
+
+    input:checked + label[b-qe06sujqck]:after {
+        left: calc(100% - 1px);
+        transform: translateX(-100%);
+    }
+
+label:active[b-qe06sujqck]:after {
+    width: 30px;
+}
+.container[b-qe06sujqck] {
+    max-width: calc(100% - 250px);
+    margin-left: 250px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body[b-qe06sujqck] {
+    transition: background-color 0.3s, color 0.3s;
+}

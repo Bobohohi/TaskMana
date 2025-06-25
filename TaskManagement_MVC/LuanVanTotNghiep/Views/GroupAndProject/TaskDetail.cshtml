@@ -1,0 +1,203 @@
+﻿@model LuanVanTotNghiep.Models.TaskItem
+
+@{
+    ViewData["Title"] = "Chi tiết Task";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .file-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 15px;
+    }
+
+    .file-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f8f9fa;
+        padding: 12px 16px;
+        border-radius: 10px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        transition: background-color 0.3s ease;
+    }
+
+        .file-item:hover {
+            background-color: #e9ecef;
+        }
+
+    .file-name {
+        font-weight: 500;
+        color: #333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 70%;
+    }
+
+    .file-actions a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+        .file-actions a:hover {
+            text-decoration: underline;
+        }
+
+    .comment-box {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+    }
+
+    .comment-content {
+        background-color: #f0f2f5;
+        padding: 10px 15px;
+        border-radius: 18px;
+        max-width: 500px;
+    }
+
+    .comment-meta {
+        font-size: 12px;
+        color: #777;
+        margin-top: 4px;
+    }
+
+    .comment-section {
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+
+    .comment-form {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+        .comment-form textarea {
+            flex-grow: 1;
+            border-radius: 18px;
+            padding: 10px;
+            resize: none;
+        }
+
+        .comment-form button {
+            white-space: nowrap;
+        }
+</style>
+<a asp-action="ListBoard" asp-route-Id="@ViewBag.ProjectId" asp-route-groupId="@ViewBag.GroupId" class="back-link mt-3">
+    ← Quay lại</a>
+
+<div class="row" style="margin:20px;margin-right:20px">
+    <!-- Cột trái: Thông tin task -->
+    <div class="col-md-6">
+        <h2>@Model.Description</h2>
+        <p><strong>Ngày Tạo:</strong> @Model.CreatedDate?.ToString("dd/MM/yyyy HH:mm")</p>
+        <p><strong>Ngày Đến hạn:</strong> @Model.DueDate?.ToString("dd/MM/yyyy HH:mm")</p>
+        <p><strong>Trạng thái:</strong> @Model.Status</p>
+        <p><strong>Member:</strong></p>
+        <form asp-action="AddMemberToTask" method="post" class="d-flex align-items-center mt-2">
+            <input type="hidden" name="TaskId" value="@Model.TaskId" />
+            <input type="hidden" name="groupId" value="@ViewBag.GroupId" />
+            <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+            <select name="UserId" class="form-select form-select-sm me-2" style="width: 250px;">
+                <option value="">-- Chọn thành viên để thêm --</option>
+                @foreach (var user in @ViewBag.ListMember)
+                {
+                    <option value="@user.UserId">@user.Name (@user.Email)</option>
+                }
+            </select>
+            <button type="submit" class="btn btn-sm btn-success">+ Thêm</button>
+        </form>
+
+
+        <div id="memberinfor">
+            <p>Đang tải thông tin Member...</p>
+        </div>
+
+
+        <div class="comment-section">
+            <h5>Bình luận</h5>
+            @if (Model.Comments != null && Model.Comments.Any())
+            {
+                @foreach (var comment in Model.Comments)
+                {
+                    <div class="comment-box">
+                        <div>
+                            <div class="comment-content">
+                                <strong>@comment.UserName</strong><br />
+                                @comment.Content
+                            </div>
+                            <div class="comment-meta">
+                                @comment.CreatedAt?.ToString("dd/MM/yyyy HH:mm")
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Không có bình luận.</p>
+            }
+
+            <form asp-action="CreateComment" method="post" id="commentForm" class="comment-form">
+                <input type="hidden" name="groupId" value="@ViewBag.GroupId" />
+                <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+                <input type="hidden" asp-for="TaskId" value="@Model.TaskId" />
+                <textarea name="content" id="commentContent" rows="1" placeholder="Viết bình luận..."></textarea>
+                <button type="submit" class="btn btn-primary">Gửi</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Cột phải: Danh sách file -->
+    <div class="col-md-6">
+        <div class="d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">File đính kèm</h5>
+            <a asp-action="AddFile" asp-route-id="@Model.TaskId" asp-route-projectId="@ViewBag.ProjectId" asp-route-groupId="@ViewBag.GroupId" class="btn btn-sm btn-outline-primary">+ Thêm File</a>
+        </div>
+        <div id="fileInfo">
+            <p>Đang tải thông tin file...</p>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var taskId = '@Model.TaskId'; // đảm bảo ViewBag có gán đúng ở Controller
+            $.ajax({
+                url: '/TaskDetail/LoadFileList',
+                type: 'GET',
+                data: { taskId: taskId }, // ✅ đúng tên tham số cần trong Controller
+                success: function (result) {
+                    $('#fileInfo').html(result);
+                },
+                error: function () {
+                    $('#fileInfo').html('Không có File Đính Kèm');
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            var taskId = '@Model.TaskId'; // đảm bảo ViewBag có gán đúng ở Controller
+            $.ajax({
+                url: '/TaskDetail/LoadTaskMemberList',
+                type: 'GET',
+                data: { taskId: taskId }, // ✅ đúng tên tham số cần trong Controller
+                success: function (result) {
+                    $('#memberinfor').html(result);
+                },
+                error: function () {
+                    $('#memberinfor').html('Không có member');
+                }
+            });
+        });
+    </script>
+}

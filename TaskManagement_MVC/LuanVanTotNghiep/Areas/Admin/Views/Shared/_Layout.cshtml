@@ -1,0 +1,123 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @{
+        var avatar = Context.Session.GetString("PictureUrl") ?? "/img/AvatarDefault.png";
+    }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LuanVanTotNghiep</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LuanVanTotNghiep.styles.css" asp-append-version="true" />
+
+</head>
+<body>
+    <header>
+        <nav id="sidebar" class="d-flex flex-column bg-light border-end p-3" style="width: 250px; height: 100vh; position: fixed; transition: width 0.3s;">
+            <img src="/img/logo.png" alt="Logo" class="img-fluid" style="max-width: 70px;">
+            <div class="navbar-brand">
+                <a class="navbar-brand mb-4 " asp-area="" asp-controller="Home" asp-action="Index">Task Management</a>
+            </div>
+            <hr />
+
+            <div class="nav-item d-flex align-items-center">
+                <img src="@(Context.Session.GetString("PictureUrl") ?? "/img/AvatarDefault.png")" alt="Logo"
+                     class="img-fluid rounded-circle"
+                     style="width: 40px; height: 40px; object-fit: cover;">
+                <a class="ms-2 text-decoration-none text-dark" asp-area="" asp-controller="User" asp-action="Index">@(Context.Session.GetString("Name") ?? "Người dùng")</a> <!-- Thêm margin trái để tạo khoảng cách với tên -->
+            </div>   
+            <hr />
+            <ul class="nav flex-column">
+                <li class="nav-item d-flex align-items-center ">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
+                    <div class="navbar-brand"><a class="nav-link text-dark " asp-area="Admin" asp-controller="TaskManagement" asp-action="Index">Task</a></div>
+                    
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/employee-card.png" alt="employee-card" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="Admin" asp-controller="GroupManagement" asp-action="Index">Group</a></div>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/external-SMART-CHECKIN-capsule-hotel-bearicons-glyph-bearicons.png" alt="employee-card" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="Admin" asp-controller="Project" asp-action="Index">Project</a></div>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/money-yours.png" alt="money-yours" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="Admin" asp-controller="Report" asp-action="Index">Report</a></div>
+                    
+                </li>
+                <li class="nav-item d-flex align-items-center ">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
+                    <div class="navbar-brand"><a class="nav-link text-dark " asp-area="Admin" asp-controller="User" asp-action="Index">User</a></div>
+
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/employee-card.png" alt="employee-card" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="Admin" asp-controller="Membership" asp-action="Index">Membership</a></div>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/external-SMART-CHECKIN-capsule-hotel-bearicons-glyph-bearicons.png" alt="employee-card" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="Admin" asp-controller="Comment" asp-action="Index">Comment</a></div>
+                </li>
+                <li class="nav-item d-flex align-items-center ">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
+                    <div class="navbar-brand"><a class="nav-link text-dark " asp-area="Admin" asp-controller="File" asp-action="Index">File</a></div>
+
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/employee-card.png" alt="employee-card" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="Admin" asp-controller="Notice" asp-action="Index">Notice</a></div>
+                </li>
+                <li class="nav-item mt-auto  d-flex align-items-center">
+                    <img width="27" height="27" src="https://img.icons8.com/ios-filled/50/exit.png" alt="exit" />
+                    <div class="navbar-brand"><a class="nav-link text-dark" asp-area="" asp-controller="Sign_In" asp-action="Index">Sign Out</a></div>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style=" margin-left: 250px; transition: margin-left 0.3s;">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 d-flex align-items-center">
+                        <!-- Nút mở rộng/thu nhỏ sidebar -->
+                        <li class="nav-item">
+                            <img id="iconMenu" class="icon_menu" width="20" height="20"
+                                 src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt="menu"
+                                 style="cursor: pointer;" />
+                        </li>
+                        <div class="d-flex ms-auto align-items-center gap-3">
+                            <li class="nav-item">
+                                <img width="30" height="30" src="https://img.icons8.com/stickers/50/search.png" alt="search" />
+                            </li>
+                            <li class="nav-item">
+                                <img width="30" height="30" src="https://img.icons8.com/dusk/50/chat.png" alt="chat" />
+                            </li>
+                            <li class="nav-item">
+                                <img width="30" height="30" src="https://img.icons8.com/fluency/48/commercial--v1.png" alt="commercial--v1" />
+                            </li>
+                            <li class="nav-item" style="padding-bottom:16px">
+                                <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+                            </li>
+                            <li class="nav-item" >
+                            <a class="text-dark" id="modeText" style=" text-decoration: none;
+                                            font-weight: bold; " >Light</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="container_id" class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

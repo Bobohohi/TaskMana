@@ -1,0 +1,112 @@
+﻿@model LuanVanTotNghiep.Models.Add_Single_Task
+
+@{
+    ViewData["Title"] = "Tạo công việc cá nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .form-container {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        margin-top: 30px;
+    }
+
+    .form-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .form-label {
+        font-weight: 500;
+    }
+
+    .btn-submit {
+        padding: 10px 25px;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+    .back-link {
+        margin-top: 20px;
+        display: inline-block;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 form-container">
+            <div class="form-title">🧾 Tạo công việc cá nhân</div>
+
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="form-label">Mô tả công việc</label>
+                    <input asp-for="Description" class="form-control" placeholder="Nhập mô tả..." />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label">Loại công việc</label>
+                    <div>
+                        <input type="radio" name="TaskType" value="Daily" id="dailyTask" />
+                        <label for="dailyTask" class="ms-1 me-3">Daily Task</label>
+
+                        <input type="radio" name="TaskType" value="Today" id="todayTask" />
+                        <label for="todayTask" class="ms-1 me-3">Today Task</label>
+
+                        <input type="radio" name="TaskType" value="Todo" id="todoTask" />
+                        <label for="todoTask" class="ms-1">Todo Task</label>
+                    </div>
+                </div>
+                <input type="hidden" asp-for="IsDaily" />
+                <div id="dueDateContainer"></div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-submit">Tạo</button>
+                </div>
+            </form>
+
+            <a asp-action="Index" class="back-link">← Quay lại danh sách</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(document).ready(function () {
+                    $('input[name="TaskType"]').on('change', function () {
+            var selected = $(this).val();
+
+            // Set hidden IsDaily based on radio selection
+            if (selected === 'Daily') {
+                $('input[name="IsDaily"]').val(true);
+            } else {
+                $('input[name="IsDaily"]').val(false);
+            }
+                if (selected === 'Today') {
+                    // Gửi AJAX để load DateTime Picker (nếu muốn tách riêng)
+                    $.get('/Dashboard_Task/DueDateInput', function (html) {
+                        $('#dueDateContainer').html(html);
+                    });
+                } else {
+                    // Clear vùng date nếu không chọn Today
+                    $('#dueDateContainer').empty();
+                }
+        });
+        });
+    </script>
+}

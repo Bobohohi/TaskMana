@@ -1,0 +1,74 @@
+﻿@model IEnumerable<LuanVanTotNghiep.Models.UserItem>
+
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">Danh sách người dùng</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Thêm người dùng
+        </a>
+    </div>
+
+    <div class="table-responsive shadow-sm rounded">
+        <table class="table table-bordered table-striped table-hover align-middle text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().UserId)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Email)</th>
+                    <th>Mật khẩu (ẩn)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+                    <th>Ảnh đại diện</th>
+                    <th>@Html.DisplayNameFor(model => model.First().GoogleId)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().AuthProvider)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().CreatedAt)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Address)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().PhoneNumber)</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.UserId</td>
+                        <td class="text-start">@item.Email</td>
+                        <td class="text-muted">••••••••</td> <!-- Ẩn PasswordHash -->
+                        <td>@item.Name</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.PictureUrl))
+                            {
+                                <img src="@item.PictureUrl" alt="Avatar" class="img-thumbnail rounded-circle" style="width:40px; height:40px;" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">N/A</span>
+                            }
+                        </td>
+                        <td>@item.GoogleId</td>
+                        <td>@item.AuthProvider</td>
+                        <td>@item.CreatedAt?.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td class="text-start">@item.Address</td>
+                        <td>@item.PhoneNumber</td>
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a asp-action="Edit" asp-route-id="@item.UserId" class="btn btn-sm btn-warning" title="Sửa">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.UserId" class="btn btn-sm btn-info text-white" title="Chi tiết">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.UserId" class="btn btn-sm btn-danger" title="Xoá">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

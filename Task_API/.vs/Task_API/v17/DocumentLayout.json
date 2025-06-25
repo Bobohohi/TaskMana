@@ -1,0 +1,932 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NguyenVanHoang_DH52110962\\Task_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\payoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\payoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\webhookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\webhookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\zalopaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\zalopaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\usersubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\usersubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\taskdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\taskdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\taskdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\taskdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\groupdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\groupdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\taskmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\taskmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\noticecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\noticecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\filetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\filetaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\momocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\momocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\taskfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\taskfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\imageavatarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\imageavatarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\taskhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\taskhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\groupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\groupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\register_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\emailhelper\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\emailhelper\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_taskdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_taskdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_single_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_single_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_taskfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_taskfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_usersub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_usersub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\taskfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\taskfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\models\\usersub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\models\\usersub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\mymodels\\add_groupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\mymodels\\add_groupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|d:\\nguyenvanhoang_dh52110962\\task_api\\task_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9F927F7-042A-49C0-A3F9-CF95698D1E2D}|Task_API\\Task_API.csproj|solutionrelative:task_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\HotelManagementContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Task_API\\Models\\HotelManagementContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 265,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebhookController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\WebhookController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\WebhookController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\WebhookController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\WebhookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T01:36:32.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PayOSController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\PayOSController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\PayOSController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\PayOSController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\PayOSController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:38:34.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAtwBgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:18:19.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Task.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Task.cs",
+              "RelativeToolTip": "Task_API\\Models\\Task.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:34:00.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZaloPayController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ZaloPayController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\ZaloPayController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ZaloPayController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\ZaloPayController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:55:35.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Program.cs",
+              "RelativeDocumentMoniker": "Task_API\\Program.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Program.cs",
+              "RelativeToolTip": "Task_API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T06:10:33.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\appsettings.json",
+              "RelativeDocumentMoniker": "Task_API\\appsettings.json",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\appsettings.json",
+              "RelativeToolTip": "Task_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T06:02:26.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\TaskController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAwI4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:18:35.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\User.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\User.cs",
+              "RelativeToolTip": "Task_API\\Models\\User.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:17:39.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSubController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\UserSubController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\UserSubController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\UserSubController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\UserSubController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:10:37.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskDetailController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\TaskDetailController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\TaskDetailController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\TaskDetailController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\TaskDetailController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:17:54.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GroupDetailController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\GroupDetailController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\GroupDetailController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\GroupDetailController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\GroupDetailController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAIBJwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:11:30.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskManagementContext.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskManagementContext.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\TaskManagementContext.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskManagementContext.cs",
+              "RelativeToolTip": "Task_API\\Models\\TaskManagementContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:54:49.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskDetail.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskDetail.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\TaskDetail.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskDetail.cs",
+              "RelativeToolTip": "Task_API\\Models\\TaskDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:49:12.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwD8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:16:51.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginInput.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\LoginInput.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\LoginInput.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\LoginInput.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\LoginInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:57:14.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Comment.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Comment.cs",
+              "RelativeToolTip": "Task_API\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:40:15.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Group.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Group.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Group.cs",
+              "RelativeToolTip": "Task_API\\Models\\Group.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:57:17.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MembershipPlan.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\MembershipPlan.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\MembershipPlan.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\MembershipPlan.cs",
+              "RelativeToolTip": "Task_API\\Models\\MembershipPlan.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:52:04.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Notification.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Notification.cs",
+              "RelativeToolTip": "Task_API\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:38:11.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Project.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Project.cs",
+              "RelativeToolTip": "Task_API\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:49:17.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NoticeController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\NoticeController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\NoticeController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\NoticeController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\NoticeController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:21:08.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\GroupController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:19:19.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:19:42.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Board.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Board.cs",
+              "RelativeToolTip": "Task_API\\Models\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:27:41.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BoardController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\BoardController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\BoardController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\BoardController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\BoardController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T07:26:28.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\CommentController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:15:36.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HistoryController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\HistoryController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\HistoryController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\HistoryController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\HistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:18:39.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FileTaskController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\FileTaskController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\FileTaskController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\FileTaskController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\FileTaskController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:01:31.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwEIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:20:49.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MomoController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\MomoController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\MomoController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\MomoController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\MomoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:56:01.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MembershipController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\MembershipController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\MembershipController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\MembershipController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\MembershipController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:18:55.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TaskFileController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\TaskFileController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\TaskFileController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\TaskFileController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\TaskFileController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwDsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:17:21.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ImageAvatarController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ImageAvatarController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\ImageAvatarController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\ImageAvatarController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\ImageAvatarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:30:27.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add_Board.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Board.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Board.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Board.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:03:53.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Add_Project.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Project.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Project.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Project.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:18:12.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Add_ProjectTask.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_ProjectTask.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_ProjectTask.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_ProjectTask.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_ProjectTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:56:22.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Add_Group.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Group.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Group.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Group.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T13:03:43.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Add_Notice.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Notice.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Notice.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Notice.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Notice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:37:57.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TaskHistory.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskHistory.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\TaskHistory.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskHistory.cs",
+              "RelativeToolTip": "Task_API\\Models\\TaskHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:50:18.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GroupDetail.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\GroupDetail.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\GroupDetail.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\GroupDetail.cs",
+              "RelativeToolTip": "Task_API\\Models\\GroupDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:00:58.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Register_User.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Register_User.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Register_User.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Register_User.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Register_User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:08:34.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\EmailHelper\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "Task_API\\EmailHelper\\EmailHelper.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\EmailHelper\\EmailHelper.cs",
+              "RelativeToolTip": "Task_API\\EmailHelper\\EmailHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T01:14:59.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Add_Single_Task.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Single_Task.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Single_Task.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Single_Task.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Single_Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T05:35:26.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Add_Comment.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Comment.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Comment.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Comment.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:53:05.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Add_TaskDetail.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_TaskDetail.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_TaskDetail.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_TaskDetail.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_TaskDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:46:40.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Add_TaskFile.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_TaskFile.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_TaskFile.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_TaskFile.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_TaskFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:03:17.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Add_UserSub.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_UserSub.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_UserSub.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_UserSub.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_UserSub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:39:44.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Task_API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Task_API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:19:22.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Add_Report.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Report.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_Report.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_Report.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:03:32.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TaskFile.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskFile.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\TaskFile.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\TaskFile.cs",
+              "RelativeToolTip": "Task_API\\Models\\TaskFile.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:03:38.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserSub.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\UserSub.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\UserSub.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\UserSub.cs",
+              "RelativeToolTip": "Task_API\\Models\\UserSub.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:38:42.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Add_User.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_User.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_User.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_User.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:18:19.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Add_GroupDetail.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_GroupDetail.cs",
+              "RelativeDocumentMoniker": "Task_API\\MyModels\\Add_GroupDetail.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\MyModels\\Add_GroupDetail.cs",
+              "RelativeToolTip": "Task_API\\MyModels\\Add_GroupDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T07:01:55.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\Report.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\Report.cs",
+              "RelativeToolTip": "Task_API\\Models\\Report.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBQwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:49:19.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Task_API\\WeatherForecast.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\WeatherForecast.cs",
+              "RelativeToolTip": "Task_API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:52:17.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HotelManagementContext.cs",
+              "DocumentMoniker": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\HotelManagementContext.cs",
+              "RelativeDocumentMoniker": "Task_API\\Models\\HotelManagementContext.cs",
+              "ToolTip": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Models\\HotelManagementContext.cs",
+              "RelativeToolTip": "Task_API\\Models\\HotelManagementContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T05:17:13.189Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

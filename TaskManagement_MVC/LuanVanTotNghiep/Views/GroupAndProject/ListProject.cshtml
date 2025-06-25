@@ -1,0 +1,168 @@
+﻿@model IEnumerable<LuanVanTotNghiep.Models.ProjectItem>
+@{
+    ViewData["Title"] = "Projects";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<a asp-action="Index" class="back-link mt-3">
+    ← Quay lại
+</a>
+<h2 class="page-title">@ViewBag.GroupName</h2>
+<a asp-action="CreateProject" asp-route-id="@ViewBag.GroupId" class="btn-create">+ Create Project</a>
+
+<div class="project-container">
+    @foreach (var project in Model)
+    {
+            <div class="project-card">
+                <div class="project-header">
+                <a asp-action="ListBoard"
+                   asp-route-id="@project.ProjectId"
+                   asp-route-groupId="@ViewBag.GroupId"
+                   class="project-link">
+                    <h3 class="project-title">@project.ProjectName</h3>
+                </a>
+                    <div class="dropdown">
+                        <button class="menu-btn">⋯</button>
+                        <div class="dropdown-content">
+                            <a asp-action="Edit" asp-route-id="@project.ProjectId">Rename</a>
+                            <a asp-action="Delete" asp-route-id="@project.ProjectId">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-date">
+                    📅 @project.StartDate?.ToString("dd/M") - @project.EndDate?.ToString("dd/M")
+                </div>
+                <div class="project-desc">
+                    @{
+                        var shortDesc = project.Descript;
+                        if (!string.IsNullOrEmpty(shortDesc) && shortDesc.Length > 100)
+                        {
+                            shortDesc = shortDesc.Substring(0, 100) + " ...";
+                        }
+                    }
+                    <p>@shortDesc</p>
+                </div>
+            </div>
+    }
+</div>
+
+
+<style>
+    .page-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-top: 20px;
+        color: #4A148C;
+    }
+
+    .btn-create {
+        display: inline-block;
+        margin: 20px 30px 0 30px;
+        padding: 10px 20px;
+        background-color: #6A1B9A;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-create:hover {
+            background-color: #8E24AA;
+        }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 20px 30px;
+    }
+
+    .project-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .project-card {
+        margin:10px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 20px;
+        padding: 20px;
+        width: 280px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s ease;
+    }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .project-title {
+        font-size: 18px;
+        color: #333;
+        margin: 0;
+    }
+
+    .project-date {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .project-desc {
+        font-size: 14px;
+        color: #444;
+        background-color: #FAFAFA;
+        border-radius: 10px;
+        padding: 10px;
+        min-height: 60px;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .menu-btn {
+        background: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: #888;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: white;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        z-index: 10;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        padding: 10px 15px;
+        font-size: 14px;
+        color: #333;
+        text-decoration: none;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #F3E5F5;
+        }
+</style>

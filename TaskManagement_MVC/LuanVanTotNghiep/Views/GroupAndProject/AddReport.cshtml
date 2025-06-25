@@ -1,0 +1,51 @@
+﻿@model LuanVanTotNghiep.Models.ReportItem
+
+@{
+    ViewData["Title"] = "AddReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>AddReport</h1>
+
+<h4>ReportItem</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddReport">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProjectId" value="@ViewBag.ProjectId" />
+            <input type="hidden" name="groupId" value="@ViewBag.GroupId" />
+            <div class="form-group">
+                <label asp-for="ReportName" class="control-label"></label>
+                <input asp-for="ReportName" class="form-control" />
+                <span asp-validation-for="ReportName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReportType" class="control-label">Loại báo cáo</label>
+                <select asp-for="ReportType" class="form-control">
+                    <option value="">-- Chọn loại báo cáo --</option>
+                    <option value="Day Report">Day Report</option>
+                    <option value="Week Report">Week Report</option>
+                    <option value="Month Report">Month Report</option>
+                </select>
+                <span asp-validation-for="ReportType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListBoard" asp-route-Id="@ViewBag.ProjectId" asp-route-groupId="@ViewBag.GroupId" class="back-link mt-3">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

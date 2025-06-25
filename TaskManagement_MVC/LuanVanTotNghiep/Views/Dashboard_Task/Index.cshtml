@@ -1,0 +1,252 @@
+﻿@model IEnumerable<LuanVanTotNghiep.Models.TaskItem>
+
+@{
+    ViewData["Title"] = "Task Board";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var dailyTasks = Model.Where(t => t.DueDate == null && t.ProjectId == null && t.IsDaily == true&&t.Status!="Delete").ToList();
+    var todoTasks = Model.Where(t => t.DueDate == null && t.ProjectId == null && t.IsDaily != true && t.Status != "Delete").ToList();
+    var todayTasks = Model.Where(t => t.DueDate != null && t.ProjectId == null && t.DueDate?.Date == DateTime.Today && t.Status != "Delete").ToList();
+}
+
+<style>
+    .board-wrapper {
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .card-column {
+        width: 350px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .task-card {
+        background-color: white;
+        padding: 10px 12px;
+        margin-bottom: 12px;
+        border-radius: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .task-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .task-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-wrapper {
+        position: relative;
+    }
+
+    .menu-trigger {
+        cursor: pointer;
+        font-size: 18px;
+        user-select: none;
+    }
+
+    .menu-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 22px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+        min-width: 100px;
+    }
+
+        .menu-content a {
+            display: block;
+            padding: 8px 12px;
+            text-decoration: none;
+            color: black;
+        }
+
+            .menu-content a:hover {
+                background-color: #f0f0f0;
+            }
+
+    .menu-wrapper:active .menu-content {
+        display: block;
+    }
+
+    input.form-check-input {
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+    }
+
+    .task-radios label {
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .text-decoration-line-through {
+        text-decoration: line-through;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Toggle menu display
+        document.querySelectorAll('.menu-trigger').forEach(trigger => {
+            trigger.addEventListener('click', function (e) {
+                e.stopPropagation();
+                const menu = this.nextElementSibling;
+                menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+        // Đóng tất cả menu khi nhấn ra ngoài
+        document.addEventListener('click', function () {
+            document.querySelectorAll('.menu-content').forEach(menu => {
+                menu.style.display = 'none';
+            });
+        });
+    });
+</script>
+
+<div style="padding: 10px 12px;">
+    <a asp-action="Create" class="btn btn-primary">+ Create Task</a>
+    <div class="board-wrapper">
+        <div class="card-column" style="background: linear-gradient(to bottom, white, rgba(255,71,87,1))">
+            <h3><strong>Daily Task</strong></h3>
+            @foreach (var item in dailyTasks)
+            {
+                <div class="task-card">
+                    <div class="task-left">
+                        <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center">
+                            <input type="hidden" name="taskId" value="@item.TaskId" />
+                            <input type="hidden" name="currentStatus" value="@item.Status" />
+                            <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+
+                            <div class="task-radios d-flex align-items-center me-2">
+                                <input type="checkbox"
+                                       name="statusCheckbox"
+                                       class="form-check-input me-1"
+                                       onchange="this.form.submit()"
+                                @(item.Status == "Done" ? "checked" : "") />
+                            </div>
+                        </form>
+
+                        <div class="task-info">
+                            <strong class="@(item.Status == "Done" ? "text-decoration-line-through text-muted" : "")">
+                                @item.Description
+                            </strong>
+                        </div>
+                    </div>
+
+                    <div class="menu-wrapper">
+                        <span class="menu-trigger">⋮</span>
+                        <div class="menu-content">
+                            <a asp-action="Details" asp-route-id="@item.TaskId">Detail</a>
+                            <form asp-action="UpdateStatus" method="post" style="display:inline;">
+                                <input type="hidden" name="taskId" value="@item.TaskId" />
+                                <input type="hidden" name="currentStatus" value="Delete" />
+                                <button type="submit" onclick="return confirm('Bạn có chắc muốn xóa mềm task này không?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="card-column" style="background: linear-gradient(to bottom, white, rgba(43,148,233,1))">
+            <h3><strong>Task Today</strong></h3>
+            @foreach (var item in todayTasks)
+            {
+                <div class="task-card">
+                    <div class="task-left">
+                        <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center">
+                            <input type="hidden" name="taskId" value="@item.TaskId" />
+                            <input type="hidden" name="currentStatus" value="@item.Status" />
+                            <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+
+                            <div class="task-radios d-flex align-items-center me-2">
+                                <input type="checkbox"
+                                       name="statusCheckbox"
+                                       class="form-check-input me-1"
+                                       onchange="this.form.submit()"
+                                @(item.Status == "Done" ? "checked" : "") />
+                            </div>
+                        </form>
+
+                        <div class="task-info">
+                            <strong class="@(item.Status == "Done" ? "text-decoration-line-through text-muted" : "")">
+                                @item.Description
+                            </strong>
+                        </div>
+                    </div>
+
+                    <div class="menu-wrapper">
+                        <span class="menu-trigger">⋮</span>
+                        <div class="menu-content">
+                            <a asp-action="Details" asp-route-id="@item.TaskId">Detail</a>
+                            <form asp-action="UpdateStatus" method="post" style="display:inline;">
+                                <input type="hidden" name="taskId" value="@item.TaskId" />
+                                <input type="hidden" name="currentStatus" value="Delete" />
+                                <button type="submit" onclick="return confirm('Bạn có chắc muốn xóa mềm task này không?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="card-column" style="background: linear-gradient(to bottom, white, rgba(139, 4, 201, 1))">
+            <h3><strong>To Do Task</strong></h3>
+            @foreach (var item in todoTasks)
+            {
+                <div class="task-card">
+                    <div class="task-left">
+                        <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center">
+                            <input type="hidden" name="taskId" value="@item.TaskId" />
+                            <input type="hidden" name="currentStatus" value="@item.Status" />
+                            <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+
+                            <div class="task-radios d-flex align-items-center me-2">
+                                <input type="checkbox"
+                                       name="statusCheckbox"
+                                       class="form-check-input me-1"
+                                       onchange="this.form.submit()"
+                                @(item.Status == "Done" ? "checked" : "") />
+                            </div>
+                        </form>
+
+                        <div class="task-info">
+                            <strong class="@(item.Status == "Done" ? "text-decoration-line-through text-muted" : "")">
+                                @item.Description
+                            </strong>
+                        </div>
+                    </div>
+
+                    <div class="menu-wrapper">
+                        <span class="menu-trigger">⋮</span>
+                        <div class="menu-content">
+                            <a asp-action="Details" asp-route-id="@item.TaskId">Detail</a>
+                            <form asp-action="UpdateStatus" method="post" style="display:inline;">
+                                <input type="hidden" name="taskId" value="@item.TaskId" />
+                                <input type="hidden" name="currentStatus" value="Delete" />
+                                <button type="submit" onclick="return confirm('Bạn có chắc muốn xóa mềm task này không?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+﻿@model LuanVanTotNghiep.Models.TaskItem
+
+@{
+    ViewData["Title"] = "Chi tiết Task";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .comment-box {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+    }
+    .comment-content {
+        background-color: #f0f2f5;
+        padding: 10px 15px;
+        border-radius: 18px;
+        max-width: 500px;
+    }
+
+    .comment-meta {
+        font-size: 12px;
+        color: #777;
+        margin-top: 4px;
+    }
+
+    .comment-section {
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+
+    .comment-form {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+        .comment-form textarea {
+            flex-grow: 1;
+            border-radius: 18px;
+            padding: 10px;
+            resize: none;
+        }
+
+        .comment-form button {
+            white-space: nowrap;
+        }
+</style>
+<h2>@Model.Description</h2>
+<p><strong>Ngày Tạo:</strong> @Model.CreatedDate?.ToString("dd/MM/yyyy HH:mm")</p>
+<p><strong>Ngày Đến hạn:</strong> @Model.DueDate?.ToString("dd/MM/yyyy HH:mm")</p>
+<p><strong>Trạng thái:</strong> @Model.Status</p>
+<div class="comment-section">
+    <h5>Bình luận</h5>
+    @if (Model.Comments != null && Model.Comments.Any())
+    {
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="comment-box">
+                <div>
+                    <div class="comment-content">
+                        <strong>@comment.UserName</strong><br />
+                        @comment.Content
+                    </div>
+                    <div class="comment-meta">
+                        @comment.CreatedAt?.ToString("dd/MM/yyyy HH:mm")
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Không có bình luận.</p>
+    }
+
+    <form id="commentForm" class="comment-form">
+        <textarea name="content" id="commentContent" rows="1" placeholder="Viết bình luận..."></textarea>
+        <button type="submit" class="btn btn-primary">Gửi</button>
+    </form>
+</div>

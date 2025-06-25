@@ -1,0 +1,48 @@
+﻿@model List<LuanVanTotNghiep.Models.MembershipItem>
+
+
+<div class="modal fade" id="membershipModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content shadow-lg p-3">
+            <div class="modal-header">
+                <h5 class="modal-title">You need more projects?</h5>
+            </div>
+            <div class="modal-body d-flex justify-content-between flex-wrap">
+                @foreach (var plan in Model)
+                {
+                    <div class="card p-3 m-2" style="width: 45%;">
+                        <h5>@plan.PlanName @if (plan.PlanId == 1)
+                            {
+                                <span class="badge badge-secondary">Current plan</span>
+                            }</h5>
+                        <p>@("Duration: " + plan.DurationInDays + " days")</p>
+                        <ul>
+                            <li>@plan.MaxGroups group(s)</li>
+                            <li>@plan.MaxGroupMember member(s)</li>
+                        </ul>
+                        @if (plan.Price > 0)
+                        {
+                            <p><strong>Price:</strong> $@plan.Price VND/mo</p>
+                            <form asp-action="PayOS" method="post">
+                                <input type="hidden" name="PlanId" value="@plan.PlanId" />
+                                <input type="hidden" name="Amount" value="@plan.Price" />
+                                <button type="submit" class="btn btn-primary">Upgrade</button>
+                            </form>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @if (TempData["ShowModal"] != null)
+    {
+        <script>
+            $(document).ready(function () {
+                $('#membershipModal').modal('show');
+            });
+        </script>
+    }
+}

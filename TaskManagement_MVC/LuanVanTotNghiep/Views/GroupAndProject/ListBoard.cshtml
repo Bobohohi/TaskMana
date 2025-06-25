@@ -1,0 +1,235 @@
+﻿@model List<LuanVanTotNghiep.Models.BoardItem>
+@using LuanVanTotNghiep.Models
+@{
+    var tasks = ViewBag.Tasks as List<TaskItem>;
+}
+
+<style>
+    .board-container {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+        overflow-x: auto;
+    }
+
+    .board {
+        margin: 10px;
+        background-color: #f4f5f7;
+        padding: 15px;
+        border-radius: 10px;
+        width: 250px;
+        min-width: 250px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .task {
+        background-color: white;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    }
+
+        .task.done {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+    .due-date {
+        font-size: 0.8em;
+        color: red;
+    }
+
+    .menu-wrapper {
+        position: relative;
+    }
+
+    .menu-trigger {
+        cursor: pointer;
+        font-size: 18px;
+        user-select: none;
+    }
+
+    .menu-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 22px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+        min-width: 100px;
+    }
+
+        .menu-content a {
+            display: block;
+            padding: 8px 12px;
+            text-decoration: none;
+            color: black;
+        }
+
+            .menu-content a:hover {
+                background-color: #f0f0f0;
+            }
+
+    .menu-wrapper:active .menu-content {
+        display: block;
+    }
+    .task {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description {
+    flex: 1;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Toggle menu display
+        document.querySelectorAll('.menu-trigger').forEach(trigger => {
+            trigger.addEventListener('click', function (e) {
+                e.stopPropagation();
+                const menu = this.nextElementSibling;
+                menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+
+        // Đóng tất cả menu khi nhấn ra ngoài
+        document.addEventListener('click', function () {
+            document.querySelectorAll('.menu-content').forEach(menu => {
+                menu.style.display = 'none';
+            });
+        });
+    });
+</script>
+<a asp-action="ListProject" asp-route-Id="@ViewBag.GroupId" class="back-link mt-3">
+    ← Quay lại
+</a>
+<div class="board-container">
+    @foreach (var board in Model)
+    {
+        <div class="board">
+            <h4>@board.BoardName</h4>
+            @{
+                var boardTasks = tasks?.Where(t => t.BoardId == board.BoardId).ToList();
+            }
+            @foreach (var task in boardTasks.Where(t => t.Status != "Delete"))
+            {
+                <div class="task @(task.Status == "Done" ? "done" : "Doing")">
+                    <div class="task-header">
+                        <div class="task-left d-flex align-items-center">
+                            <form asp-action="UpdateStatus" method="post" class="d-flex align-items-center">
+                                <input type="hidden" name="taskId" value="@task.TaskId" />
+                                <input type="hidden" name="currentStatus" value="@task.Status" />
+                                <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+                                <input type="hidden" name="GroupId" value="@ViewBag.GroupId" />
+                                <input type="radio"
+                                       class="form-check-input me-2"
+                                       name="statusRadio"
+                                       value="Done"
+                                       id="done_@task.TaskId"
+                                       onchange="this.form.submit()"
+                                @(task.Status == "Done" ? "checked" : "") />
+                            </form>
+
+                            <div class="description">@task.Description</div>
+                        </div>
+
+                        <div class="menu-wrapper">
+                            <span class="menu-trigger">⋮</span>
+                            <div class="menu-content">
+                                <a asp-action="TaskDetail" 
+                                    asp-route-id="@task.TaskId"
+                                    asp-route-groupId="@ViewBag.GroupId"
+                                    asp-route-projectId="@ViewBag.ProjectId">Detail</a>
+                                <form asp-action="UpdateStatus" method="post" style="display:inline;">
+                                    <input type="hidden" name="taskId" value="@task.TaskId" />
+                                    <input type="hidden" name="ProjectId" value="@ViewBag.ProjectId" />
+                                    <input type="hidden" name="currentStatus" value="Delete" />
+                                    <button type="submit" class="btn btn-link text-danger p-0"
+                                            onclick="return confirm('Bạn có chắc muốn xóa mềm task này không?');">
+                                        Delete
+                                    </button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (task.DueDate != null)
+                    {
+                        <div class="due-date">
+                            <i class="fa fa-clock"></i> @task.DueDate?.ToString("MMM dd")
+                        </div>
+                    }
+                </div>
+
+            }
+            <a asp-action="CreateTask"
+               asp-route-projectId="@ViewBag.ProjectId"
+               asp-route-groupId="@ViewBag.GroupId"
+               asp-route-boardId="@board.BoardId">
+                + Add a card
+            </a>
+        </div>
+    }
+
+    <div class="board" style="background: #d9a7f0; color: white;">
+        <a asp-action="CreateBoard" asp-route-id="@ViewBag.ProjectId" asp-route-groupId="@ViewBag.GroupId" style="color: white;">+ Add another list</a>
+    </div>
+</div>
+<div class="d-flex justify-content-between align-items-center">
+    <h4>📋 Danh sách báo cáo</h4>
+    <a asp-action="AddReport" asp-route-id="@ViewBag.ProjectId" asp-route-groupId="@ViewBag.GroupId" class="btn btn-sm btn-outline-primary">+ Thêm Báo Cáo</a>
+</div>
+<div id="projectInfo" style="margin:20px;margin-right:20px">
+    <p>Đang tải thông tin báo cáo...</p>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var projectId = '@ViewBag.ProjectId'; // đảm bảo ViewBag có gán đúng ở Controller
+            $.ajax({
+                url: '/GroupAndProject/LoadReportList',
+                type: 'GET',
+                data: { projectId: projectId }, // ✅ đúng tên tham số cần trong Controller
+                success: function (result) {
+                    $('#projectInfo').html(result);
+                },
+                error: function () {
+                    $('#projectInfo').html('');
+                }
+            });
+             $('.form-check-input').on('change', function () {
+                const taskId = this.id.split('_')[1];
+                $.ajax({
+                    url: `/Task/UpdateStatus?taskId=${taskId}&newStatus=Done`,
+                    type: 'PUT',
+                    success: function () {
+                        console.log('Cập nhật thành công');
+                    },
+                    error: function () {
+                        alert('Cập nhật thất bại');
+                    }
+                });
+            });
+        });
+    </script>
+}

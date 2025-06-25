@@ -1,0 +1,1701 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\groupandprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\groupandprojectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\dashboard_taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\dashboard_taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\membership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\membership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\payos_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\payos_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\payos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\payos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\usersub_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\usersub_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\comment_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\comment_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\addmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\addmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\groupdetail_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\groupdetail_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\taskdetail_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\taskdetail_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\taskfile_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\taskfile_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\listboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\listboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\createproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\sign_in\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\sign_in\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\staticreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\staticreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\taskdetail\\loadfilelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\taskdetail\\loadfilelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\group_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\group_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\groupdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\groupdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\user_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\user_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\addfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\addfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\taskdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\taskdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\listproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\listproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\loadmemberlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\loadmemberlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\loadreportlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\loadreportlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\createboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\createboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\groupandproject\\addreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\groupandproject\\addreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\add_single_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\add_single_task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\archivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\archivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\archive\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\archive\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\dashboard_task\\duedateinput.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\dashboard_task\\duedateinput.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\dashboard_task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\dashboard_task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\dashboard_task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\dashboard_task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\board_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\board_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\task_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\task_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\notification_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\notification_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\taskdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\taskdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\project_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\project_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\sign_incontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\sign_incontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\staticreport_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\staticreport_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\staticreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\staticreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\staticreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\staticreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\groupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\groupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\membership_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\membership_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\groupmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\groupmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\comment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\comment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\membership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\membership\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\groupmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\groupmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\file\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\file\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\taskmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\taskmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\nocticecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\nocticecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\membershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\report_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\report_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\repository\\login_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\repository\\login_repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\sign_in\\forgotpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\sign_in\\forgotpass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\sign_in\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\sign_in\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\taskdetail\\loadtaskmemberlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\taskdetail\\loadtaskmemberlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\taskmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\taskmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\taskdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\taskdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\taskdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\taskdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\taskfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\taskfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\usersub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\usersub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\wwwroot\\img\\groupimage.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\wwwroot\\img\\groupimage.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\wwwroot\\img\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\wwwroot\\img\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\wwwroot\\img\\avatar.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\wwwroot\\img\\avatar.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\wwwroot\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\wwwroot\\img\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|d:\\active_office\\vs_studio\\ki2nam4\\taskmanagement_mvc\\luanvantotnghiep\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8C4539E-01A3-4E6B-9931-AEC42E4219B7}|LuanVanTotNghiep\\LuanVanTotNghiep.csproj|solutionrelative:luanvantotnghiep\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Board.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Board.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:22:31.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard_TaskController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\Dashboard_TaskController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\Dashboard_TaskController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\Dashboard_TaskController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\Dashboard_TaskController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwEUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:06:47.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MembershipController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\MembershipController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\MembershipController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\MembershipController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\MembershipController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T03:42:53.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserSub_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\UserSub_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\UserSub_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\UserSub_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\UserSub_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:11:22.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Membership\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Membership\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Membership\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Membership\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T04:05:47.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PayOS.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\PayOS.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\PayOS.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\PayOS.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\PayOS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:41:02.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupAndProjectController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\GroupAndProjectController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\GroupAndProjectController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\GroupAndProjectController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\GroupAndProjectController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwv0oAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:18:56.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PayOS_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\PayOS_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\PayOS_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\PayOS_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\PayOS_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T03:40:11.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comment_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Comment_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Comment_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Comment_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Comment_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:53:18.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddMember.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\AddMember.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\AddMember.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\AddMember.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\AddMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T05:53:38.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskDetail_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\TaskDetail_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\TaskDetail_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\TaskDetail_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\TaskDetail_Repo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:46:39.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GroupDetail_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\GroupDetail_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\GroupDetail_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\GroupDetail_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\GroupDetail_Repo.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:17:17.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskFile_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\TaskFile_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\TaskFile_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\TaskFile_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\TaskFile_Repo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswDQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T14:38:44.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Task.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Task.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:43:32.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListBoard.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\ListBoard.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\ListBoard.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\ListBoard.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\ListBoard.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAQwHcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T02:27:26.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateProject.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\CreateProject.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\CreateProject.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\CreateProject.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\CreateProject.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T02:17:48.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTask.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\CreateTask.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\CreateTask.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\CreateTask.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\CreateTask.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswEUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T04:39:29.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Sign_In\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Sign_In\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Sign_In\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Sign_In\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:24:14.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\StaticReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\StaticReport\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\StaticReport\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\StaticReport\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T05:39:47.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoadFileList.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\TaskDetail\\LoadFileList.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\TaskDetail\\LoadFileList.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\TaskDetail\\LoadFileList.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\TaskDetail\\LoadFileList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T03:59:33.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Group_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Group_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Group_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Group_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Group_Repo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:15:48.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GroupDetailController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\GroupDetailController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\GroupDetailController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\GroupDetailController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\GroupDetailController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:15:04.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwHoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T04:43:45.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T04:26:39.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\User_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\User_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\User_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\User_Repo.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:02:42.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddFile.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\AddFile.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\AddFile.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\AddFile.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\AddFile.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T12:26:33.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoadReportList.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\LoadReportList.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\LoadReportList.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\LoadReportList.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\LoadReportList.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T09:11:39.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\User.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\User.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:16:18.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TaskDetail.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\TaskDetail.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\TaskDetail.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\TaskDetail.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\TaskDetail.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T06:20:55.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoadMemberList.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\LoadMemberList.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\LoadMemberList.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\LoadMemberList.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\LoadMemberList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T01:30:36.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ListProject.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\ListProject.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\ListProject.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\ListProject.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\ListProject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T11:20:32.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T02:26:16.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateBoard.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\CreateBoard.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\CreateBoard.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\CreateBoard.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\CreateBoard.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T02:23:30.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\Create.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\Create.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\Create.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T02:43:47.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddReport.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\AddReport.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\GroupAndProject\\AddReport.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\GroupAndProject\\AddReport.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\GroupAndProject\\AddReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T13:12:30.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:19:01.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Group.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Group.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Group.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:38:27.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Notification.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Notification.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:20:01.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Project.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Project.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:09:39.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Comment.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Comment.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Comment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:56:01.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Add_Single_Task.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Add_Single_Task.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Add_Single_Task.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Add_Single_Task.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Add_Single_Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T03:49:29.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Dashboard_Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Dashboard_Task\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Dashboard_Task\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Dashboard_Task\\Index.cshtml",
+              "ViewState": "AgIAANgAAAAAAAAAAAAYwO8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T02:03:36.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ArchiveController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\ArchiveController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\ArchiveController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\ArchiveController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\ArchiveController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T15:40:25.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DueDateInput.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Dashboard_Task\\DueDateInput.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Dashboard_Task\\DueDateInput.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Dashboard_Task\\DueDateInput.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Dashboard_Task\\DueDateInput.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T08:16:43.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Dashboard_Task\\Create.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Dashboard_Task\\Create.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Dashboard_Task\\Create.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Dashboard_Task\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:45:14.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Archive\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Archive\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Archive\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Archive\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T15:42:07.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Notification\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Notification\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T14:26:44.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Task_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Task_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Task_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Task_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Task_Repo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAawEIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:16:17.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TaskDetailController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\TaskDetailController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\TaskDetailController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\TaskDetailController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\TaskDetailController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:57:02.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Notification_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Notification_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Notification_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Notification_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Notification_Repo.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAawDwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:22:55.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Board_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Board_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Board_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Board_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Board_Repo.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:15:35.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwDEAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:29:41.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Project_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Project_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Project_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Project_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Project_Repo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:05:52.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Sign_InController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\Sign_InController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\Sign_InController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\Sign_InController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\Sign_InController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T04:23:28.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "StaticReport.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\StaticReport.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\StaticReport.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\StaticReport.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\StaticReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:03:46.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "StaticReport_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\StaticReport_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\StaticReport_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\StaticReport_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\StaticReport_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:05:14.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "StaticReportController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\StaticReportController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\StaticReportController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\StaticReportController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\StaticReportController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T05:06:33.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GroupDetail.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\GroupDetail.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\GroupDetail.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\GroupDetail.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\GroupDetail.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:09:37.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Membership.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Membership.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Membership.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Membership.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Membership.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:56:32.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Membership_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Membership_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Membership_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Membership_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Membership_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:16:26.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GroupManagementController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\GroupManagementController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\GroupManagementController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\GroupManagementController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\GroupManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T04:12:47.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\File\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\File\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\File\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\File\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T07:57:51.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T08:02:26.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Report\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Report\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Report\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Report\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T07:59:09.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T07:54:15.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Membership\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Membership\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Membership\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Membership\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T07:49:43.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T06:11:11.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\GroupManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\GroupManagement\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\GroupManagement\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\GroupManagement\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T04:42:42.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:09:15.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "TaskManagementController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\TaskManagementController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\TaskManagementController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\TaskManagementController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\TaskManagementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:06:06.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:08:59.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:08:45.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "NocticeController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\NocticeController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\NocticeController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\NocticeController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\NocticeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:10:30.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "MembershipController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\MembershipController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\MembershipController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\MembershipController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\MembershipController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:09:40.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:01:13.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\FileController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\FileController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\FileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:10:11.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T06:09:58.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwCsAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T09:05:17.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Report_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Report_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Report_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Report_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Report_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T09:01:39.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Login_Repo.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Login_Repo.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Repository\\Login_Repo.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Repository\\Login_Repo.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Repository\\Login_Repo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAEwDEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:14:37.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ForgotPass.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Sign_In\\ForgotPass.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Sign_In\\ForgotPass.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Sign_In\\ForgotPass.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Sign_In\\ForgotPass.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:35:49.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:59:42.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T09:40:01.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "LoadTaskMemberList.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\TaskDetail\\LoadTaskMemberList.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\TaskDetail\\LoadTaskMemberList.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\TaskDetail\\LoadTaskMemberList.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\TaskDetail\\LoadTaskMemberList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T06:56:26.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Login.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Login.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Login.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAxwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T12:55:24.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Sign_In\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Sign_In\\SignUp.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Sign_In\\SignUp.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Sign_In\\SignUp.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T06:44:28.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\TaskManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\TaskManagement\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\TaskManagement\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\TaskManagement\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T03:48:26.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T09:39:58.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T09:40:01.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T10:01:57.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T09:39:57.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\TaskDetail\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\TaskDetail\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\TaskDetail\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\TaskDetail\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:37:21.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "TaskDetail.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\TaskDetail.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\TaskDetail.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\TaskDetail.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\TaskDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:38:42.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "TaskFile.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\TaskFile.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\TaskFile.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\TaskFile.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\TaskFile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA9wBAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:19:21.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "UserSub.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\UserSub.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\UserSub.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\UserSub.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\UserSub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:28:11.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Models\\Report.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Models\\Report.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T09:02:52.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Program.cs",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Program.cs",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Program.cs",
+              "RelativeToolTip": "LuanVanTotNghiep\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvyYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T09:52:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T06:10:53.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "GroupImage.jpg - Bitmap [312x234, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg - Bitmap [312x234, 24 bit, JPG]",
+              "RelativeToolTip": "LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg - Bitmap [312x234, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-08T15:40:36.666Z",
+              "EditorCaption": " - Bitmap [312x234, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "background.jpg - Bitmap [5000x2813, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg - Bitmap [5000x2813, 24 bit, JPG]",
+              "RelativeToolTip": "LuanVanTotNghiep\\wwwroot\\img\\background.jpg - Bitmap [5000x2813, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-08T15:40:35.11Z",
+              "EditorCaption": " - Bitmap [5000x2813, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "avatar.jpg - Bitmap [480x709, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg - Bitmap [480x709, 24 bit, JPG]",
+              "RelativeToolTip": "LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg - Bitmap [480x709, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-08T15:40:33.718Z",
+              "EditorCaption": " - Bitmap [480x709, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "logo.png - PNG [197x250, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\wwwroot\\img\\logo.png",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png - PNG [197x250, 32 bit, PNG]",
+              "RelativeToolTip": "LuanVanTotNghiep\\wwwroot\\img\\logo.png - PNG [197x250, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-08T15:40:27.449Z",
+              "EditorCaption": " - PNG [197x250, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T15:26:31.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T04:48:11.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LuanVanTotNghiep\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LuanVanTotNghiep\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T15:34:59.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
