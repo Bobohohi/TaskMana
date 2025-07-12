@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "irJGWc/nbqZd0b5eiGHPggyv3bLpkvdy7RyVgNMAEpc=",
+  "Hash": "AIp8qSG+yBHtzKccbSDkGx8yMNtkrxjzv69cLBMkFT8=",
   "Source": "LuanVanTotNghiep",
   "BasePath": "_content/LuanVanTotNghiep",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LuanVanTotNghiep\\wwwroot",
       "Source": "LuanVanTotNghiep",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "LuanVanTotNghiep#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "NKyLU/bGdk+xf0v1r1Vmv4w6xHn1znNPF8TDA+/1lLY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css"
+      "OriginalItemSpec": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "LuanVanTotNghiep#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "NKyLU/bGdk+xf0v1r1Vmv4w6xHn1znNPF8TDA+/1lLY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\css\\site.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\favicon.ico",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "img/avatar#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\avatar.jpg"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\AvatarDefault.png",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\AvatarDefault.png",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "img/AvatarDefault#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\img\\AvatarDefault.png"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "img/background#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\img\\background.jpg"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "img/GroupImage#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\img\\GroupImage.jpg"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "img/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\js\\site.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "LuanVanTotNghiep",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
+      "ContentRoot": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\",
       "BasePath": "_content/LuanVanTotNghiep",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1427,7 +1427,7 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1464,7 +1464,7 @@
     },
     {
       "Route": "css/site.oza5x044s9.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1509,7 +1509,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1554,7 +1554,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "Route": "img/avatar.jpg",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1628,7 +1628,7 @@
     },
     {
       "Route": "img/avatar.lud0kr1ess.jpg",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\avatar.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1673,7 +1673,7 @@
     },
     {
       "Route": "img/AvatarDefault.6lgtm6z21n.png",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\AvatarDefault.png",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\AvatarDefault.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1718,7 +1718,7 @@
     },
     {
       "Route": "img/AvatarDefault.png",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\AvatarDefault.png",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\AvatarDefault.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1755,7 +1755,7 @@
     },
     {
       "Route": "img/background.gq48qebsgv.jpg",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1800,7 +1800,7 @@
     },
     {
       "Route": "img/background.jpg",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\background.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1837,7 +1837,7 @@
     },
     {
       "Route": "img/GroupImage.jpg",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1874,7 +1874,7 @@
     },
     {
       "Route": "img/GroupImage.pir6yuxfon.jpg",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\GroupImage.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1919,7 +1919,7 @@
     },
     {
       "Route": "img/logo.2ml0hjvtob.png",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1964,7 +1964,7 @@
     },
     {
       "Route": "img/logo.png",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\img\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2001,7 +2001,7 @@
     },
     {
       "Route": "js/site.0b4u4evtxy.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2046,7 +2046,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2083,7 +2083,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2120,7 +2120,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2165,7 +2165,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2202,7 +2202,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2247,7 +2247,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2284,7 +2284,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2329,7 +2329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2366,7 +2366,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2411,7 +2411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2448,7 +2448,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2493,7 +2493,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2530,7 +2530,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2575,7 +2575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2620,7 +2620,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2657,7 +2657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2702,7 +2702,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2739,7 +2739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2776,7 +2776,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2813,7 +2813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2858,7 +2858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2903,7 +2903,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2940,7 +2940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2985,7 +2985,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3022,7 +3022,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3067,7 +3067,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3104,7 +3104,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3149,7 +3149,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3186,7 +3186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3231,7 +3231,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3268,7 +3268,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3305,7 +3305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3350,7 +3350,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3395,7 +3395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3432,7 +3432,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3477,7 +3477,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3514,7 +3514,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3551,7 +3551,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3588,7 +3588,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3633,7 +3633,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3678,7 +3678,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3723,7 +3723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3768,7 +3768,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3805,7 +3805,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3850,7 +3850,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3887,7 +3887,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3924,7 +3924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3961,7 +3961,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4006,7 +4006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4051,7 +4051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4088,7 +4088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4133,7 +4133,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4170,7 +4170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4215,7 +4215,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4252,7 +4252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4289,7 +4289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4334,7 +4334,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4371,7 +4371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4416,7 +4416,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4453,7 +4453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4490,7 +4490,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4535,7 +4535,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4572,7 +4572,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4617,7 +4617,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4662,7 +4662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4707,7 +4707,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4752,7 +4752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4797,7 +4797,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4834,7 +4834,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4879,7 +4879,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4916,7 +4916,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4961,7 +4961,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4998,7 +4998,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5043,7 +5043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5080,7 +5080,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5117,7 +5117,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5162,7 +5162,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5199,7 +5199,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5244,7 +5244,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5281,7 +5281,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5318,7 +5318,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5363,7 +5363,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5408,7 +5408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5445,7 +5445,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5490,7 +5490,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5527,7 +5527,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5572,7 +5572,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5609,7 +5609,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5646,7 +5646,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5691,7 +5691,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5728,7 +5728,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5773,7 +5773,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5810,7 +5810,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dsw5v3fbc5.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5855,7 +5855,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5892,7 +5892,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5929,7 +5929,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.rm8d4uw1xt.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5974,7 +5974,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.ukz1g2vv03.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6019,7 +6019,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.afgyafcsqt.txt",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6064,7 +6064,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6101,7 +6101,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6146,7 +6146,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6183,7 +6183,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6228,7 +6228,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6265,7 +6265,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6310,7 +6310,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6347,7 +6347,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6384,7 +6384,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6429,7 +6429,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6466,7 +6466,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6511,7 +6511,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.dvc2bfcndg.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6556,7 +6556,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6593,7 +6593,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6630,7 +6630,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.mt9h37ga6s.js",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6675,7 +6675,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6712,7 +6712,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.wqejeusuyq.txt",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6757,7 +6757,7 @@
     },
     {
       "Route": "LuanVanTotNghiep.bundle.scp.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6794,7 +6794,7 @@
     },
     {
       "Route": "LuanVanTotNghiep.c8erf1kuxn.bundle.scp.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LuanVanTotNghiep.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6839,7 +6839,7 @@
     },
     {
       "Route": "LuanVanTotNghiep.c8erf1kuxn.styles.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6884,7 +6884,7 @@
     },
     {
       "Route": "LuanVanTotNghiep.styles.css",
-      "AssetFile": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css",
+      "AssetFile": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LuanVanTotNghiep.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

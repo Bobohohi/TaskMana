@@ -217,19 +217,7 @@
                     $('#projectInfo').html('');
                 }
             });
-             $('.form-check-input').on('change', function () {
-                const taskId = this.id.split('_')[1];
-                $.ajax({
-                    url: `/Task/UpdateStatus?taskId=${taskId}&newStatus=Done`,
-                    type: 'PUT',
-                    success: function () {
-                        console.log('Cập nhật thành công');
-                    },
-                    error: function () {
-                        alert('Cập nhật thất bại');
-                    }
-                });
-            });
+
         });
     </script>
 }

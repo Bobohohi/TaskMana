@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Face Auth - NO Deep Scan</title>
+</head>
+<body>
+
+    <h2>✅ 1AIE Face Authentication - No Deep Scan (localhost)</h2>
+
+    <!-- Đảm bảo bạn dùng đúng KEY đã được phép chạy localhost -->
+    <script src="https://api.1aie.com/?key=bbb79bd71fe2407a33c104776a817980&active=aic"></script>
+
+    <script>
+        window.onload = function () {
+          aie_aic("body", {
+            type: "fa",
+            option: {
+              data_uri: "https://api.1aie.com/sc/data/",
+              data_label: ["TRUMP"],
+              data_file: ["1.jpg"],
+
+              deep_scan: false,
+              deep_scan_button: false,
+              force_block_deep_scan: true, // 🔐 ép tắt deep scan và ẩn cảnh báo
+
+              kyc: { collect: "off" },
+              scan_level: 0.45,
+              scan_speed: 0,
+              reset_time: 30
+            },
+            width: "100%",
+            video: "all",
+            control: true,
+            torch: false,
+            lang: { show: true, set: "vi" }
+          }, function (res) {
+            console.log("✅ Kết quả xác thực:", res);
+          });
+        };
+    </script>
+
+</body>
+</html>
+

@@ -92,6 +92,93 @@ namespace Task_API.Controllers
                 return BadRequest("Lỗi khi lấy báo cáo: " + ex.Message);
             }
         }
+        [HttpDelete("{reportId}")]
+        public IActionResult DeleteReport(int reportId)
+        {
+            try
+            {
+                var report = _context.Reports.FirstOrDefault(r => r.ReportId == reportId);
+
+                if (report == null)
+                {
+                    return NotFound(new { message = "Report not found" });
+                }
+
+                _context.Reports.Remove(report);
+                _context.SaveChanges();
+
+                return Ok(new { message = "Report deleted successfully" });
+            }
+            catch (DbUpdateException ex)
+            {
+                return BadRequest(new { message = "Không thể xóa báo cáo do ràng buộc dữ liệu", error = ex.InnerException?.Message });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi không xác định khi xóa báo cáo", error = ex.Message });
+            }
+        }
+        [HttpPut("{reportId}")]
+        public IActionResult UpdateReport(int reportId, [FromBody] Report model)
+        {
+            try
+            {
+                var report = _context.Reports.FirstOrDefault(r => r.ReportId == reportId);
+
+                if (report == null)
+                {
+                    return NotFound(new { message = "Report not found" });
+                }
+
+                // Gán lại dữ liệu từ model
+                report.ProjectId = model.ProjectId;
+                report.ReportName = model.ReportName;
+                report.Description = model.Description;
+                report.ReportType = model.ReportType;
+                report.CreatedAt = model.CreatedAt;
+                report.UserId = model.UserId;
+
+                _context.Reports.Update(report);
+                _context.SaveChanges();
+
+                return Ok(new { message = "Report updated successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi cập nhật báo cáo", error = ex.Message });
+            }
+        }
+        [HttpGet("{reportId}")]
+        public IActionResult GetReportById(int reportId)
+        {
+            try
+            {
+                var report = _context.Reports
+                    .Where(r => r.ReportId == reportId)
+                    .Select(r => new
+                    {
+                        ReportId = r.ReportId,
+                        ProjectId = r.ProjectId,
+                        ReportName = r.ReportName,
+                        Description = r.Description,
+                        ReportType = r.ReportType,
+                        CreatedAt = r.CreatedAt,
+                        UserId = r.UserId,
+                    })
+                    .FirstOrDefault();
+
+                if (report == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy báo cáo." });
+                }
+
+                return Ok(report);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi hệ thống", error = ex.Message });
+            }
+        }
 
     }
 }

@@ -158,6 +158,90 @@
         }
       }
     },
+    "/api/Comment/{commentId}": {
+      "delete": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "commentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "commentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comment"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comment"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Comment"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Comment"
+        ],
+        "parameters": [
+          {
+            "name": "commentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/FileTask/file": {
       "post": {
         "tags": [
@@ -308,6 +392,155 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Group/UpdateStatus/{groupId}": {
+      "put": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Group/UpdateName/{groupId}": {
+      "put": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Group/{groupId}": {
+      "delete": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Group/UpdateGroup/{groupId}": {
+      "put": {
+        "tags": [
+          "Group"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Group"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Group"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Group"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -602,6 +835,90 @@
         }
       }
     },
+    "/api/Membership/{planId}": {
+      "get": {
+        "tags": [
+          "Membership"
+        ],
+        "parameters": [
+          {
+            "name": "planId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Membership"
+        ],
+        "parameters": [
+          {
+            "name": "planId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MembershipPlan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Membership"
+        ],
+        "parameters": [
+          {
+            "name": "planId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Momo/create-payment": {
       "post": {
         "tags": [
@@ -785,6 +1102,90 @@
         }
       }
     },
+    "/api/Notice/{notificationId}": {
+      "delete": {
+        "tags": [
+          "Notice"
+        ],
+        "parameters": [
+          {
+            "name": "notificationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Notice"
+        ],
+        "parameters": [
+          {
+            "name": "notificationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Notification"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Notification"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Notification"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Notice"
+        ],
+        "parameters": [
+          {
+            "name": "notificationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/PayOS/create": {
       "post": {
         "tags": [
@@ -937,6 +1338,176 @@
         }
       }
     },
+    "/api/Project/UpdateStatus/{projectId}": {
+      "put": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Project/UpdateName/{projectId}": {
+      "put": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Project/{projectId}": {
+      "delete": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Project/UpdateProject/{projectId}": {
+      "put": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Project"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Project"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Project"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Report": {
       "get": {
         "tags": [
@@ -987,6 +1558,90 @@
           {
             "name": "projectId",
             "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Report/{reportId}": {
+      "delete": {
+        "tags": [
+          "Report"
+        ],
+        "parameters": [
+          {
+            "name": "reportId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Report"
+        ],
+        "parameters": [
+          {
+            "name": "reportId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Report"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Report"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Report"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Report"
+        ],
+        "parameters": [
+          {
+            "name": "reportId",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -1234,6 +1889,69 @@
         }
       }
     },
+    "/api/Task/{taskId}": {
+      "delete": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Add_Single_Task"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Add_Single_Task"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Add_Single_Task"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/TaskDetail": {
       "get": {
         "tags": [
@@ -1370,6 +2088,90 @@
           {
             "name": "taskId",
             "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/TaskFile/{fileId}": {
+      "delete": {
+        "tags": [
+          "TaskFile"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "TaskFile"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskFile"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskFile"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskFile"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "TaskFile"
+        ],
+        "parameters": [
+          {
+            "name": "fileId",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -1527,6 +2329,29 @@
             "in": "query",
             "schema": {
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/User/{userId}": {
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -2190,6 +3015,45 @@
         },
         "additionalProperties": false
       },
+      "Comment": {
+        "type": "object",
+        "properties": {
+          "commentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taskId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "task": {
+            "$ref": "#/components/schemas/Task"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreatePaymentLinkRequest": {
         "type": "object",
         "properties": {
@@ -2253,6 +3117,47 @@
           },
           "password": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MembershipPlan": {
+        "type": "object",
+        "properties": {
+          "planId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planName": {
+            "type": "string",
+            "nullable": true
+          },
+          "durationInDays": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxGroups": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maxGroupMember": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "userSubs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserSub"
+            },
             "nullable": true
           }
         },
@@ -2500,6 +3405,49 @@
         },
         "additionalProperties": false
       },
+      "TaskFile": {
+        "type": "object",
+        "properties": {
+          "fileId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "taskId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "fileName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fileType": {
+            "type": "string",
+            "nullable": true
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "uploadedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "task": {
+            "$ref": "#/components/schemas/Task"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
       "User": {
         "type": "object",
         "properties": {
@@ -2548,6 +3496,46 @@
           "phoneNumber": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserSub": {
+        "type": "object",
+        "properties": {
+          "subscriptionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "planId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isActive": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "plan": {
+            "$ref": "#/components/schemas/MembershipPlan"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
           }
         },
         "additionalProperties": false

@@ -169,12 +169,40 @@ namespace LuanVanTotNghiep.Controllers
                 ModelState.AddModelError("", "Không xác định được người dùng.");
                 return View(model);
             }
+
             model.UserId = int.Parse(userIdString);
             model.CreatedAt = DateTime.Now;
+
+            // Kiểm tra dữ liệu rỗng
+            if (string.IsNullOrWhiteSpace(model.ProjectName))
+            {
+                ModelState.AddModelError("ProjectName", "Vui lòng nhập tên dự án.");
+            }
+
+            if (string.IsNullOrWhiteSpace(model.Descript))
+            {
+                ModelState.AddModelError("Descript", "Vui lòng nhập mô tả dự án.");
+            }
+            // Kiểm tra ngày bắt đầu và ngày kết thúc
+            if (model.StartDate == default(DateTime))
+            {
+                ModelState.AddModelError("StartDate", "Vui lòng chọn ngày bắt đầu.");
+            }
+
+            if (model.EndDate == default(DateTime))
+            {
+                ModelState.AddModelError("EndDate", "Vui lòng chọn ngày kết thúc.");
+            }
+
+            if (model.EndDate < model.StartDate && model.EndDate != default(DateTime) && model.StartDate != default(DateTime))
+            {
+                ModelState.AddModelError("EndDate", "Ngày kết thúc phải sau ngày bắt đầu.");
+            }
+
             if (ModelState.IsValid)
             {
                 bool result = await ProjectService.CreateProject(model);
-                    if (result)
+                if (result)
                     return RedirectToAction("ListProject", new { id = model.GroupId });
                 else
                     ModelState.AddModelError("", "Tạo Project thất bại.");
@@ -182,6 +210,7 @@ namespace LuanVanTotNghiep.Controllers
 
             return View(model);
         }
+
         [HttpGet]
         public ActionResult CreateBoard(int id, int groupId)
         {
@@ -422,6 +451,67 @@ namespace LuanVanTotNghiep.Controllers
 
             bool result = await TaskService.UpdateTaskStatus_Query(taskId, newStatus);
             return RedirectToAction("ListBoard", new { id = ProjectId , groupId = GroupId });
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeleteGroup(int id)
+        {
+            var result = await GroupService.UpdateGroupStatus(id, "Deleted");
+            if (result)
+            {
+                TempData["Message"] = "Group deleted successfully.";
+            }
+            else
+            {
+                TempData["Message"] = "Failed to delete group.";
+            }
+
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public async Task<IActionResult> RenameGroup(int groupId, string newName)
+        {
+            if (string.IsNullOrWhiteSpace(newName))
+            {
+                TempData["Message"] = "Tên nhóm không hợp lệ.";
+                return RedirectToAction("Index");
+            }
+
+            var result = await GroupService.UpdateGroupName(groupId, newName);
+
+            TempData["Message"] = result ? "Đổi tên nhóm thành công!" : "Đổi tên thất bại.";
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteProject(int id)
+        {
+            // Gọi API xóa
+            using (var client = new HttpClient())
+            {
+                var response = await ProjectService.UpdateProjectStatus(id, "Delete");
+                if (response)
+                {
+                    TempData["Message"] = "Xóa dự án thành công!";
+                }
+                else
+                {
+                    TempData["Error"] = "Không thể xóa dự án.";
+                }
+            }
+
+            return RedirectToAction("Index", new { id = ViewBag.GroupId });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RenameProject(int projectId, string newName)
+        {
+            var success = await ProjectService.UpdateProjectName(projectId, newName);
+            if (success)
+                TempData["Message"] = "Đổi tên thành công!";
+            else
+                TempData["Error"] = "Lỗi khi đổi tên.";
+
+            return RedirectToAction("Index", new { id = ViewBag.GroupId });
         }
     }
 

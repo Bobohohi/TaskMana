@@ -155,6 +155,56 @@ namespace Task_API.Controllers
             return Ok("Cập nhật ảnh đại diện thành công.");
         }
 
+        [HttpDelete("{userId}")]
+        public async Task<IActionResult> DeleteUser(int userId)
+        {
+            try
+            {
+                var user = await _context.Users.FindAsync(userId);
+
+                if (user == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy người dùng." });
+                }
+
+                // Xử lý xóa liên kết (foreign key) trước để tránh lỗi ràng buộc
+                var comments = _context.Comments.Where(c => c.UserId == userId);
+                var notifications = _context.Notifications.Where(n => n.UserId == userId);
+                var tasks = _context.Tasks.Where(t => t.UserId == userId || t.AssignedTo == userId);
+                var taskDetails = _context.TaskDetails.Where(td => td.UserId == userId);
+                var groups = _context.Groups.Where(g => g.UserId == userId);
+                var groupDetails = _context.GroupDetails.Where(gd => gd.UserId == userId);
+                var projects = _context.Projects.Where(p => p.UserId == userId);
+                var reports = _context.Reports.Where(r => r.UserId == userId);
+                var taskFiles = _context.TaskFiles.Where(f => f.UserId == userId);
+                var taskHistories = _context.TaskHistories.Where(h => h.UpdatedBy == userId);
+                var subs = _context.UserSubs.Where(s => s.UserId == userId);
+
+                // Xóa các bản ghi liên quan trước
+                _context.Comments.RemoveRange(comments);
+                _context.Notifications.RemoveRange(notifications);
+                _context.Tasks.RemoveRange(tasks);
+                _context.TaskDetails.RemoveRange(taskDetails);
+                _context.Groups.RemoveRange(groups);
+                _context.GroupDetails.RemoveRange(groupDetails);
+                _context.Projects.RemoveRange(projects);
+                _context.Reports.RemoveRange(reports);
+                _context.TaskFiles.RemoveRange(taskFiles);
+                _context.TaskHistories.RemoveRange(taskHistories);
+                _context.UserSubs.RemoveRange(subs);
+
+                // Sau cùng xóa user
+                _context.Users.Remove(user);
+
+                await _context.SaveChangesAsync();
+
+                return Ok(new { message = "Người dùng đã được xóa thành công.", userId = userId });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi xóa người dùng.", error = ex.Message });
+            }
+        }
 
     }
 }

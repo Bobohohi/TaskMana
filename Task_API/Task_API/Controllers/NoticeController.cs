@@ -117,7 +117,84 @@ namespace Task_API.Controllers
                 return BadRequest();
             }
         }
+        [HttpDelete("{notificationId}")]
+        public IActionResult DeleteNotice(int notificationId)
+        {
+            try
+            {
+                var notice = _context.Notifications.FirstOrDefault(n => n.NotificationId == notificationId);
 
+                if (notice == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy thông báo." });
+                }
+
+                _context.Notifications.Remove(notice);
+                _context.SaveChanges();
+
+                return Ok(new { message = "Thông báo đã được xóa thành công.", notificationId = notificationId });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi xóa thông báo", error = ex.Message });
+            }
+        }
+        [HttpPut("{notificationId}")]
+        public IActionResult UpdateNotice(int notificationId, [FromBody] Notification model)
+        {
+            try
+            {
+                var notice = _context.Notifications.FirstOrDefault(n => n.NotificationId == notificationId);
+
+                if (notice == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy thông báo." });
+                }
+
+                notice.Message = model.Message;
+                notice.IsRead = model.IsRead;
+                notice.SentDate = model.SentDate;
+                notice.UserId = model.UserId;
+
+                _context.SaveChanges();
+
+                return Ok(new { message = "Cập nhật thông báo thành công.", notificationId = notificationId });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi cập nhật thông báo", error = ex.Message });
+            }
+        }
+
+        [HttpGet("{notificationId}")]
+        public IActionResult GetNoticeById(int notificationId)
+        {
+            try
+            {
+                var notice = _context.Notifications
+                    .Where(n => n.NotificationId == notificationId)
+                    .Select(n => new
+                    {
+                        NotificationId = n.NotificationId,
+                        UserId = n.UserId,
+                        Message = n.Message,
+                        IsRead = n.IsRead,
+                        SentDate = n.SentDate
+                    })
+                    .FirstOrDefault();
+
+                if (notice == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy thông báo." });
+                }
+
+                return Ok(notice);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi hệ thống", error = ex.Message });
+            }
+        }
 
     }
 }

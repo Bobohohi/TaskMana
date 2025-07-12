@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QH2xX4QLcOw=",
+  "dgSpecHash": "mmZ/Ej7DBvI=",
   "success": true,
-  "projectFilePath": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj",
+  "projectFilePath": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

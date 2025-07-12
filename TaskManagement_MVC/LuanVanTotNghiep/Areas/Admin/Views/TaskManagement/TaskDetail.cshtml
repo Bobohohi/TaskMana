@@ -1,0 +1,55 @@
+﻿@model LuanVanTotNghiep.Models.TaskItem
+
+@{
+    ViewData["Title"] = "Chi tiết công việc";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Chi tiết công việc - ID: @Model.TaskId</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Mô tả</dt>
+                <dd class="col-sm-9">@Model.Description</dd>
+
+                <dt class="col-sm-3">Ngày tạo</dt>
+                <dd class="col-sm-9">@Model.CreatedDate?.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                <dt class="col-sm-3">Hạn chót</dt>
+                <dd class="col-sm-9">(@Model.DueDate?.ToString("dd/MM/yyyy HH:mm")Không Có thời hạn)</dd>
+
+                <dt class="col-sm-3">Trạng thái</dt>
+                <dd class="col-sm-9">
+                    <span class="badge
+                        @(Model.Status == "Hoàn thành" ? "bg-success" :
+                          Model.Status == "Đang làm" ? "bg-warning text-dark" :
+                          "bg-secondary")">
+                        @Model.Status
+                    </span>
+                </dd>
+
+                <dt class="col-sm-3">Người được giao</dt>
+                <dd class="col-sm-9">@Model.AssignedTo</dd>
+
+                <dt class="col-sm-3">Thuộc dự án</dt>
+                <dd class="col-sm-9">@Model.ProjectId</dd>
+
+                <dt class="col-sm-3">Người tạo</dt>
+                <dd class="col-sm-9">@Model.UserId</dd>
+
+                <dt class="col-sm-3">Bảng công việc</dt>
+                <dd class="col-sm-9">@Model.BoardId</dd>
+
+                <dt class="col-sm-3">Công việc hàng ngày?</dt>
+                @Html.DisplayFor(model => model.IsDaily)
+            </dl>
+        </div>
+        <div class="card-footer text-end">
+         
+            <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+        </div>
+    </div>
+</div>

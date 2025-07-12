@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj": {}
+    "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj": {}
   },
   "projects": {
-    "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj": {
+    "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj",
+        "projectUniqueName": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj",
         "projectName": "LuanVanTotNghiep",
-        "projectPath": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj",
+        "projectPath": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\LuanVanTotNghiep.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\ACTIVE_OFFICE\\VS_STUDIO\\ki2nam4\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\",
+        "outputPath": "D:\\Luạn văn Task\\TaskManagement_MVC\\LuanVanTotNghiep\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

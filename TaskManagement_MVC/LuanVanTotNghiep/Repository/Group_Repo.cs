@@ -54,6 +54,46 @@ namespace LuanVanTotNghiep.Repository
                 return JsonConvert.DeserializeObject<GroupItem>(json);
             }
         }
+        public async Task<bool> UpdateGroupStatus(int groupId, string newStatus)
+        {
+            using (var client = new HttpClient())
+            {
+                var content = new StringContent(JsonConvert.SerializeObject(newStatus), Encoding.UTF8, "application/json");
+
+                var response = await client.PutAsync($"{apiUrl}/UpdateStatus/{groupId}", content);
+                return response.IsSuccessStatusCode;
+            }
+        }
+
+        public async Task<bool> UpdateGroupName(int groupId, string newName)
+        {
+            using (var client = new HttpClient())
+            {
+                var content = new StringContent(JsonConvert.SerializeObject(newName), Encoding.UTF8, "application/json");
+
+                var response = await client.PutAsync($"{apiUrl}/UpdateName/{groupId}", content);
+                return response.IsSuccessStatusCode;
+            }
+        }
+        public async Task<bool> DeleteGroup(int groupId)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.DeleteAsync($"{apiUrl}/{groupId}");
+                return response.IsSuccessStatusCode;
+            }
+        }
+        public async Task<bool> UpdateGroup(int groupId, GroupItem updatedGroup)
+        {
+            using (var client = new HttpClient())
+            {
+                var json = JsonConvert.SerializeObject(updatedGroup);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var response = await client.PutAsync($"{apiUrl}/UpdateGroup/{groupId}", content);
+                return response.IsSuccessStatusCode;
+            }
+        }
 
     }
 }

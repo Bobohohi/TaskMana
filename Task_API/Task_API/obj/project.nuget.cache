@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D0ESlffzIgM=",
+  "dgSpecHash": "Exba8kIfQx8=",
   "success": true,
-  "projectFilePath": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Task_API.csproj",
+  "projectFilePath": "D:\\Luạn văn Task\\Task_API\\Task_API\\Task_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\cloudinarydotnet\\1.27.5\\cloudinarydotnet.1.27.5.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

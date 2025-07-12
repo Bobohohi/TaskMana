@@ -29,7 +29,7 @@ namespace LuanVanTotNghiep.Controllers
                 ProductName = PlanId.ToString(),
                 Amount = ((int)Amount),
                 Description = "Subcribe Membership",
-                CancelUrl = "https://localhost:44340/cancel",
+                CancelUrl = "https://localhost:44340/Dashboard_Task/Index",
                 ReturnUrl = $"https://localhost:44340/GroupAndProject/PaymentSuccess?planId={PlanId}"
             };
 

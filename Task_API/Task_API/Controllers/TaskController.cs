@@ -26,6 +26,7 @@ namespace Task_API.Controllers
                 {
                     TaskId = t.TaskId,
                     Description = t.Description,
+                    CreatedDate = t.CreatedDate,
                     DueDate = t.DueDate,
                     Status = t.Status,
                     ProjectId = t.ProjectId,
@@ -199,9 +200,56 @@ namespace Task_API.Controllers
 
             return Ok();
         }
+        [HttpDelete("{taskId}")]
+        public IActionResult DeleteTask(int taskId)
+        {
+            try
+            {
+                var task = _context.Tasks.FirstOrDefault(t => t.TaskId == taskId);
+                if (task == null)
+                {
+                    return NotFound(new { message = "Task not found" });
+                }
 
+                _context.Tasks.Remove(task);
+                _context.SaveChanges();
 
+                return Ok(new { message = "Task deleted successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Error deleting task", error = ex.Message });
+            }
+        }
 
+        [HttpPut("{taskId}")]
+        public IActionResult UpdateTask(int taskId, [FromBody] Add_Single_Task updatedTask)
+        {
+            try
+            {
+                var task = _context.Tasks.FirstOrDefault(t => t.TaskId == taskId);
+                if (task == null)
+                {
+                    return NotFound(new { message = "Task not found" });
+                }
+                task.Description = updatedTask.Description;
+                task.DueDate = updatedTask.DueDate;
+                task.CreatedDate = updatedTask.CreatedDate;
+                task.Status = updatedTask.Status;
+                task.AssignedTo = updatedTask.AssignedTo;
+                task.UserId = updatedTask.UserId;
+                task.IsDaily = updatedTask.IsDaily;
+
+                _context.Tasks.Update(task);
+                _context.SaveChanges();
+
+                return Ok(new { message = "Task updated successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Error updating task", error = ex.Message });
+            }
+        }
 
     }
 }

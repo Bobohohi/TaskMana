@@ -24,7 +24,14 @@
         font-size: 0.875rem;
         padding: 4px 10px;
     }
+
 </style>
+<div class="btn-group mb-3" role="group" aria-label="Sort options">
+    <a class="btn btn-outline-primary" asp-action="Archived" asp-route-sortOrder="created_desc">🕒 Mới nhất</a>
+    <a class="btn btn-outline-primary" asp-action="Archived" asp-route-sortOrder="created_asc">📆 Cũ nhất</a>
+    <a class="btn btn-outline-primary" asp-action="Archived" asp-route-sortOrder="due_asc">⏳ Hạn gần</a>
+    <a class="btn btn-outline-primary" asp-action="Archived" asp-route-sortOrder="due_desc">🗓️ Hạn xa</a>
+</div>
 
 <h2 class="mb-4">🗃️ Danh sách công việc đã lưu trữ</h2>
 

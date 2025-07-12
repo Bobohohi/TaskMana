@@ -91,6 +91,89 @@ namespace Task_API.Controllers
                 return BadRequest("Lỗi khi lấy danh sách file: " + ex.Message);
             }
         }
+        [HttpDelete("{fileId}")]
+        public IActionResult DeleteTaskFile(int fileId)
+        {
+            try
+            {
+                var taskFile = _context.TaskFiles.FirstOrDefault(f => f.FileId == fileId);
+
+                if (taskFile == null)
+                {
+                    return NotFound(new { message = "TaskFile not found" });
+                }
+
+                _context.TaskFiles.Remove(taskFile);
+                _context.SaveChanges();
+
+                return Ok(new { message = "File deleted successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi xóa file", error = ex.Message });
+            }
+        }
+        [HttpPut("{fileId}")]
+        public IActionResult UpdateTaskFile(int fileId, [FromBody] TaskFile model)
+        {
+            try
+            {
+                var taskFile = _context.TaskFiles.FirstOrDefault(f => f.FileId == fileId);
+
+                if (taskFile == null)
+                {
+                    return NotFound(new { message = "TaskFile not found" });
+                }
+
+                // Gán lại các giá trị từ model
+                taskFile.TaskId = model.TaskId;
+                taskFile.FileName = model.FileName;
+                taskFile.FileType = model.FileType;
+                taskFile.FilePath = model.FilePath;
+                taskFile.UploadedAt = model.UploadedAt;
+                taskFile.UserId = model.UserId;
+
+                _context.TaskFiles.Update(taskFile);
+                _context.SaveChanges();
+
+                return Ok(new { message = "File updated successfully" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi cập nhật file", error = ex.Message });
+            }
+        }
+        [HttpGet("{fileId}")]
+        public IActionResult GetTaskFileById(int fileId)
+        {
+            try
+            {
+                var taskFile = _context.TaskFiles
+                    .Where(f => f.FileId == fileId)
+                    .Select(t => new
+                    {
+                        FileId = t.FileId,
+                        TaskId = t.TaskId,
+                        FileName = t.FileName,
+                        FileType = t.FileType,
+                        FilePath = t.FilePath,
+                        UploadedAt = t.UploadedAt,
+                        UserId = t.UserId,
+                    })
+                    .FirstOrDefault();
+
+                if (taskFile == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy file." });
+                }
+
+                return Ok(taskFile);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi hệ thống", error = ex.Message });
+            }
+        }
 
     }
 }

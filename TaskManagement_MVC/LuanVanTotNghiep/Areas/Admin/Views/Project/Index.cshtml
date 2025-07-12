@@ -42,10 +42,10 @@
                         <td>@item.UserId</td>
                         <td>
                             <div class="d-flex justify-content-center gap-2">
-                                <a asp-action="Edit" asp-route-id="@item.ProjectId" class="btn btn-sm btn-warning" title="Sửa">
+                                <a asp-action="Update" asp-route-id="@item.ProjectId" class="btn btn-sm btn-warning" title="Sửa">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
-                                <a asp-action="Details" asp-route-id="@item.ProjectId" class="btn btn-sm btn-info text-white" title="Chi tiết">
+                                <a asp-action="ProjectDetail" asp-route-id="@item.ProjectId" class="btn btn-sm btn-info text-white" title="Chi tiết">
                                     <i class="bi bi-eye"></i>
                                 </a>
                                 <a asp-action="Delete" asp-route-id="@item.ProjectId" class="btn btn-sm btn-danger" title="Xoá">

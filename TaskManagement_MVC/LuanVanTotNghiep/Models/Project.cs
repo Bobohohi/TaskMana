@@ -5,7 +5,7 @@ namespace LuanVanTotNghiep.Models
     public class ProjectItem
     {
         [JsonIgnore]
-        public int? ProjectId { get; set; }
+        public int ProjectId { get; set; }
         public string? ProjectName { get; set; }
         public string? Descript { get; set; }
         public DateTime? StartDate { get; set; }

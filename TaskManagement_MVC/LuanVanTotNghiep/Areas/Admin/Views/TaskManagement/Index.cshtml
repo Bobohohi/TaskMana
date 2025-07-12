@@ -20,10 +20,6 @@
                     <th>@Html.DisplayNameFor(m => m.First().CreatedDate)</th>
                     <th>@Html.DisplayNameFor(m => m.First().DueDate)</th>
                     <th>@Html.DisplayNameFor(m => m.First().Status)</th>
-                    <th>@Html.DisplayNameFor(m => m.First().AssignedTo)</th>
-                    <th>@Html.DisplayNameFor(m => m.First().ProjectId)</th>
-                    <th>@Html.DisplayNameFor(m => m.First().UserId)</th>
-                    <th>@Html.DisplayNameFor(m => m.First().BoardId)</th>
                     <th>Hành động</th>
                 </tr>
             </thead>
@@ -40,14 +36,10 @@
                                 @item.Status
                             </span>
                         </td>
-                        <td>@item.AssignedTo</td>
-                        <td>@item.ProjectId</td>
-                        <td>@item.UserId</td>
-                        <td>@item.BoardId</td>
                         <td>
                             <div class="d-flex justify-content-center gap-2">
                                 <a asp-action="Edit" asp-route-id="@item.TaskId" class="btn btn-sm btn-warning">Sửa</a>
-                                <a asp-action="Details" asp-route-id="@item.TaskId" class="btn btn-sm btn-info text-white">Chi tiết</a>
+                                <a asp-action="TaskDetail" asp-route-id="@item.TaskId" class="btn btn-sm btn-info text-white">Chi tiết</a>
                                 <a asp-action="Delete" asp-route-id="@item.TaskId" class="btn btn-sm btn-danger">Xoá</a>
                             </div>
                         </td>

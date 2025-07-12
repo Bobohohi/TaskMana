@@ -10,7 +10,7 @@
 <a asp-action="CreateProject" asp-route-id="@ViewBag.GroupId" class="btn-create">+ Create Project</a>
 
 <div class="project-container">
-    @foreach (var project in Model)
+    @foreach (var project in Model.Where(t => t.Status != "Delete"))
     {
             <div class="project-card">
                 <div class="project-header">
@@ -20,13 +20,19 @@
                    class="project-link">
                     <h3 class="project-title">@project.ProjectName</h3>
                 </a>
-                    <div class="dropdown">
-                        <button class="menu-btn">⋯</button>
-                        <div class="dropdown-content">
-                            <a asp-action="Edit" asp-route-id="@project.ProjectId">Rename</a>
-                            <a asp-action="Delete" asp-route-id="@project.ProjectId">Delete</a>
-                        </div>
+                <div class="dropdown">
+                    <button class="menu-btn">⋯</button>
+                    <div class="dropdown-content">
+                        <!-- Trigger popup -->
+                        <a href="#" onclick="openRenamePopup(@project.ProjectId, '@project.ProjectName')">Rename</a>
+
+                        <!-- Delete form -->
+                        <form asp-action="DeleteProject"  method="post" style="margin: 0;">
+                            <input type="hidden" name="id" value="@project.ProjectId" />
+                            <button type="submit" style="border: none; background: none; padding: 10px 15px; width: 100%; text-align: left;">Delete</button>
+                        </form>
                     </div>
+                </div>
                 </div>
                 <div class="project-date">
                     📅 @project.StartDate?.ToString("dd/M") - @project.EndDate?.ToString("dd/M")
@@ -165,4 +171,74 @@
         .dropdown-content a:hover {
             background-color: #F3E5F5;
         }
+</style>
+<!-- Rename Popup -->
+<div id="renameModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeRenamePopup()">&times;</span>
+        <h3>Rename Project</h3>
+        <form asp-action="RenameProject" method="post">
+            <input type="hidden" id="renameProjectId" name="projectId" />
+            <input type="text" id="renameProjectName" name="newName" class="input-text" required />
+            <br />
+            <button type="submit" class="btn-create" style="margin-top: 10px;">Save</button>
+        </form>
+    </div>
+</div>
+<script>
+    function openRenamePopup(id, name) {
+        document.getElementById('renameProjectId').value = id;
+        document.getElementById('renameProjectName').value = name;
+        document.getElementById('renameModal').style.display = 'block';
+    }
+
+    function closeRenamePopup() {
+        document.getElementById('renameModal').style.display = 'none';
+    }
+
+    // Close modal if clicked outside
+    window.onclick = function (event) {
+        var modal = document.getElementById('renameModal');
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .modal-content {
+        background-color: #fff;
+        margin: auto;
+        padding: 20px;
+        border-radius: 12px;
+        width: 30%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .close-btn {
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .input-text {
+        width: 100%;
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
 </style>

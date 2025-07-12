@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Task_API.csproj": {}
+    "D:\\Luạn văn Task\\Task_API\\Task_API\\Task_API.csproj": {}
   },
   "projects": {
-    "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Task_API.csproj": {
+    "D:\\Luạn văn Task\\Task_API\\Task_API\\Task_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Task_API.csproj",
+        "projectUniqueName": "D:\\Luạn văn Task\\Task_API\\Task_API\\Task_API.csproj",
         "projectName": "Task_API",
-        "projectPath": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\Task_API.csproj",
+        "projectPath": "D:\\Luạn văn Task\\Task_API\\Task_API\\Task_API.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenVanHoang_DH52110962\\Task_API\\Task_API\\obj\\",
+        "outputPath": "D:\\Luạn văn Task\\Task_API\\Task_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

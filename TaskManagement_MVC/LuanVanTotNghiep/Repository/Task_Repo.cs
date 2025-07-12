@@ -84,17 +84,34 @@ namespace LuanVanTotNghiep.Repository
                 return response.IsSuccessStatusCode;
             }
         }
-            public async Task<bool> UpdateTaskStatus_Query(int taskId, string newStatus)
+        public async Task<bool> UpdateTaskStatus_Query(int taskId, string newStatus)
+        {
+            using (var client = new HttpClient())
             {
-                using (var client = new HttpClient())
-                {
-                    var request = new HttpRequestMessage(HttpMethod.Patch, apiUrl+ "/UpdateStatus?taskId="+taskId+"&newStatus="+newStatus);
-                    var response = await client.SendAsync(request);
-                    return response.IsSuccessStatusCode;
-                }
+                var request = new HttpRequestMessage(HttpMethod.Patch, apiUrl+ "/UpdateStatus?taskId="+taskId+"&newStatus="+newStatus);
+                var response = await client.SendAsync(request);
+                return response.IsSuccessStatusCode;
             }
+        }
+        public async Task<bool> DeleteTask(int taskId)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.DeleteAsync($"{apiUrl}/{taskId}");
+                return response.IsSuccessStatusCode;
+            }
+        }
+        public async Task<bool> UpdateTask(int taskId, TaskItem updatedTask)
+        {
+            using (var client = new HttpClient())
+            {
+                var json = JsonConvert.SerializeObject(updatedTask);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-
+                var response = await client.PutAsync($"{apiUrl}/{taskId}", content);
+                return response.IsSuccessStatusCode;
+            }
+        }
 
     }
 }

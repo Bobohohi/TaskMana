@@ -79,6 +79,59 @@
   },
   {
     "ContainingType": "Task_API.Controllers.CommentController",
+    "Method": "DeleteComment",
+    "RelativePath": "api/Comment/{commentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.CommentController",
+    "Method": "UpdateComment",
+    "RelativePath": "api/Comment/{commentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Task_API.Models.Comment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.CommentController",
+    "Method": "GetCommentById",
+    "RelativePath": "api/Comment/{commentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.CommentController",
     "Method": "GetCommentByTaskId",
     "RelativePath": "api/Comment/GetCommentByTaskId",
     "HttpMethod": "GET",
@@ -147,6 +200,22 @@
   },
   {
     "ContainingType": "Task_API.Controllers.GroupController",
+    "Method": "DeleteGroup",
+    "RelativePath": "api/Group/{groupId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.GroupController",
     "Method": "GetGroupById",
     "RelativePath": "api/Group/{id}",
     "HttpMethod": "GET",
@@ -186,6 +255,69 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Task_API.Controllers.GroupController",
+    "Method": "UpdateGroup",
+    "RelativePath": "api/Group/UpdateGroup/{groupId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedGroup",
+        "Type": "Task_API.Models.Group",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.GroupController",
+    "Method": "UpdateGroupName",
+    "RelativePath": "api/Group/UpdateName/{groupId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.GroupController",
+    "Method": "UpdateGroupStatus",
+    "RelativePath": "api/Group/UpdateStatus/{groupId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Task_API.Controllers.GroupDetailController",
@@ -357,6 +489,59 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Task_API.Controllers.MembershipController",
+    "Method": "GetMembershipById",
+    "RelativePath": "api/Membership/{planId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.MembershipController",
+    "Method": "UpdateMembership",
+    "RelativePath": "api/Membership/{planId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedPlan",
+        "Type": "Task_API.Models.MembershipPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.MembershipController",
+    "Method": "DeleteMembership",
+    "RelativePath": "api/Membership/{planId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Task_API.Controllers.MomoController",
     "Method": "CreatePayment",
     "RelativePath": "api/Momo/create-payment",
@@ -393,6 +578,59 @@
       {
         "Name": "x",
         "Type": "Task_API.MyModels.Add_Notice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.NoticeController",
+    "Method": "DeleteNotice",
+    "RelativePath": "api/Notice/{notificationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.NoticeController",
+    "Method": "UpdateNotice",
+    "RelativePath": "api/Notice/{notificationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Task_API.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.NoticeController",
+    "Method": "GetNoticeById",
+    "RelativePath": "api/Notice/{notificationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -516,6 +754,38 @@
   },
   {
     "ContainingType": "Task_API.Controllers.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/Project/{projectId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ProjectController",
+    "Method": "GetProjectById",
+    "RelativePath": "api/Project/{projectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ProjectController",
     "Method": "GetListProjectByGroupId",
     "RelativePath": "api/Project/GetListProjectByGroupId/{groupId}",
     "HttpMethod": "GET",
@@ -541,6 +811,69 @@
     ]
   },
   {
+    "ContainingType": "Task_API.Controllers.ProjectController",
+    "Method": "UpdateProjectName",
+    "RelativePath": "api/Project/UpdateName/{projectId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ProjectController",
+    "Method": "UpdateProject",
+    "RelativePath": "api/Project/UpdateProject/{projectId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Task_API.Models.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ProjectController",
+    "Method": "UpdateProjectStatus",
+    "RelativePath": "api/Project/UpdateStatus/{projectId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Task_API.Controllers.ReportController",
     "Method": "getReport",
     "RelativePath": "api/Report",
@@ -561,6 +894,59 @@
       {
         "Name": "t",
         "Type": "Task_API.MyModels.Add_Report",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ReportController",
+    "Method": "DeleteReport",
+    "RelativePath": "api/Report/{reportId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ReportController",
+    "Method": "UpdateReport",
+    "RelativePath": "api/Report/{reportId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Task_API.Models.Report",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.ReportController",
+    "Method": "GetReportById",
+    "RelativePath": "api/Report/{reportId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -619,6 +1005,43 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.TaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/Task/{taskId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Task/{taskId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedTask",
+        "Type": "Task_API.MyModels.Add_Single_Task",
         "IsRequired": true
       }
     ],
@@ -809,6 +1232,59 @@
   },
   {
     "ContainingType": "Task_API.Controllers.TaskFileController",
+    "Method": "DeleteTaskFile",
+    "RelativePath": "api/TaskFile/{fileId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.TaskFileController",
+    "Method": "UpdateTaskFile",
+    "RelativePath": "api/TaskFile/{fileId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Task_API.Models.TaskFile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.TaskFileController",
+    "Method": "GetTaskFileById",
+    "RelativePath": "api/TaskFile/{fileId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.TaskFileController",
     "Method": "GetTaskFileByTaskId",
     "RelativePath": "api/TaskFile/GetTaskFileByTaskId",
     "HttpMethod": "GET",
@@ -831,6 +1307,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Task_API.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

@@ -59,5 +59,35 @@ namespace LuanVanTotNghiep.Repository
                 return response.IsSuccessStatusCode;
             }
         }
+        public async Task<bool> DeleteNotice(int notificationId)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.DeleteAsync($"{apiUrl}/{notificationId}");
+                return response.IsSuccessStatusCode;
+            }
+        }
+        public async Task<bool> UpdateNotice(int notificationId, NotificationItem updatedNotice)
+        {
+            using (var client = new HttpClient())
+            {
+                var json = JsonConvert.SerializeObject(updatedNotice);
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var response = await client.PutAsync($"{apiUrl}/{notificationId}", content);
+                return response.IsSuccessStatusCode;
+            }
+        }
+        public async Task<NotificationItem> GetNoticeById(int notificationId)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = await client.GetAsync($"{apiUrl}/{notificationId}");
+                response.EnsureSuccessStatusCode();
+
+                var json = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<NotificationItem>(json);
+            }
+        }
     }
 }

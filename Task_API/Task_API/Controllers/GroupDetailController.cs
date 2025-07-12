@@ -111,6 +111,7 @@ namespace Task_API.Controllers
                                       g.GroupId,
                                       g.GroupName,
                                       g.GroupSize,
+                                      g.Status,
                                       gd.RoleInGroup
                                   }).ToList();
 

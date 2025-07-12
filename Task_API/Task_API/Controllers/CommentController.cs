@@ -90,6 +90,83 @@ namespace Task_API.Controllers
                 return BadRequest("Lỗi khi lấy bình luận: " + ex.Message);
             }
         }
+        [HttpDelete("{commentId}")]
+        public IActionResult DeleteComment(int commentId)
+        {
+            try
+            {
+                var comment = _context.Comments.FirstOrDefault(c => c.CommentId == commentId);
+
+                if (comment == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy bình luận." });
+                }
+
+                _context.Comments.Remove(comment);
+                _context.SaveChanges();
+
+                return Ok(new { message = "Đã xóa bình luận thành công", commentId = commentId });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi xóa bình luận", error = ex.Message });
+            }
+        }
+        [HttpPut("{commentId}")]
+        public IActionResult UpdateComment(int commentId, [FromBody] Comment model)
+        {
+            try
+            {
+                var comment = _context.Comments.FirstOrDefault(c => c.CommentId == commentId);
+
+                if (comment == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy bình luận." });
+                }
+
+                comment.Content = model.Content;
+                comment.CreatedAt = model.CreatedAt; // Có thể giữ nguyên thời gian cũ nếu muốn
+                _context.SaveChanges();
+
+                return Ok(new { message = "Cập nhật bình luận thành công", commentId = comment.CommentId });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Lỗi khi cập nhật bình luận", error = ex.Message });
+            }
+        }
+        [HttpGet("{commentId}")]
+        public IActionResult GetCommentById(int commentId)
+        {
+            try
+            {
+                var comment = _context.Comments
+                    .Include(c => c.User)
+                    .Where(c => c.CommentId == commentId)
+                    .Select(c => new
+                    {
+                        CommentId = c.CommentId,
+                        TaskId = c.TaskId,
+                        UserId = c.UserId,
+                        Name = c.User.Name,
+                        Content = c.Content,
+                        CreatedAt = c.CreatedAt
+                    })
+                    .FirstOrDefault();
+
+                if (comment == null)
+                {
+                    return NotFound(new { message = "Không tìm thấy bình luận." });
+                }
+
+                return Ok(comment);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi hệ thống", error = ex.Message });
+            }
+        }
+
 
     }
 }
